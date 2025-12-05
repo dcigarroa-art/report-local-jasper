@@ -1,0 +1,2909 @@
+<!-- Created with Jaspersoft Studio version 7.0.3.final using JasperReports Library version 7.0.3-41034ca841d452f3305ba55b9042260aaa1ab5dd  -->
+<jasperReport name="PDFApplication" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="05fab4cc-66b2-4b70-ba56-82faca29edd4">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="ApplicationAdapter"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w1" value="462"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w2" value="527"/>
+	<style name="sBase" fontName="SansSerif" fontSize="10.0" pdfFontName="Helvetica"/>
+	<style name="sH1" style="sBase" fontSize="16.0" bold="true"/>
+	<style name="sH2" style="sBase" fontSize="13.0" bold="true"/>
+	<style name="sBadge" mode="Opaque" forecolor="#FFFFFF"/>
+	<style name="Table_CH" mode="Transparent" forecolor="#FFFFFF" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_CH" mode="Transparent" forecolor="#FFFFFF" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_CH" mode="Transparent" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_CH" mode="Transparent" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_CH" mode="Transparent" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 5_CH" mode="Transparent" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 6_TH" mode="Transparent" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 6_CH" mode="Transparent" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 6_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 7_CH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_CH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_TH_FIRST" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_TH_LAST" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_CH_FIRST" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_CH_LAST" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_TD_FIRST" mode="Opaque" backcolor="#FBFDFF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_TD_LAST" mode="Opaque" backcolor="#FBFDFF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 9_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 9_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 9_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<dataset name="adapterAnomalies" uuid="ba7bafed-62c3-453f-b2b8-387210b7b3d1">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="ApplicationAdapter"/>
+		<parameter name="JSON_INPUT_STREAM" forPrompting="false" class="java.io.InputStream"/>
+		<parameter name="net.sf.jasperreports.json.source" forPrompting="false" class="java.lang.String"/>
+		<parameter name="net.sf.jasperreports.json.sources" forPrompting="false" class="java.util.List"/>
+		<parameter name="net.sf.jasperreports.json.date.pattern" forPrompting="false" class="java.lang.String"/>
+		<parameter name="net.sf.jasperreports.json.number.pattern" forPrompting="false" class="java.lang.String"/>
+		<parameter name="JSON_LOCALE" forPrompting="false" class="java.util.Locale"/>
+		<parameter name="net.sf.jasperreports.json.locale.code" forPrompting="false" class="java.lang.String"/>
+		<parameter name="JSON_TIME_ZONE" forPrompting="false" class="java.util.TimeZone"/>
+		<parameter name="net.sf.jasperreports.json.timezone.id" forPrompting="false" class="java.lang.String"/>
+		<parameter name="P_LANGUAGE_TABLE" class="java.lang.String" nestedType="java.lang.String"/>
+		<query language="JSON"><![CDATA[anomalies]]></query>
+		<field name="id" class="java.lang.Integer">
+			<description><![CDATA[id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="id"/>
+		</field>
+		<field name="anomaly_type_id" class="java.lang.Integer">
+			<description><![CDATA[anomaly_type_id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="anomaly_type_id"/>
+		</field>
+		<field name="account_id" class="java.lang.Integer">
+			<description><![CDATA[account_id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="account_id"/>
+		</field>
+		<field name="app_instance_id" class="java.lang.Integer">
+			<description><![CDATA[app_instance_id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="app_instance_id"/>
+		</field>
+		<field name="created_at" class="java.lang.String">
+			<description><![CDATA[created_at]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="created_at"/>
+		</field>
+		<field name="tenant_id" class="java.lang.String">
+			<description><![CDATA[tenant_id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="tenant_id"/>
+		</field>
+		<field name="username" class="java.lang.String">
+			<description><![CDATA[username]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="username"/>
+		</field>
+		<field name="app_name" class="java.lang.String">
+			<description><![CDATA[app_name]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="app_name"/>
+		</field>
+		<field name="description_en" class="java.lang.String">
+			<description><![CDATA[description_en]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="description_en"/>
+		</field>
+		<field name="description_es" class="java.lang.String">
+			<description><![CDATA[description_es]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="description_es"/>
+		</field>
+	</dataset>
+	<dataset name="AdapterAccounts" uuid="3da19c64-3585-4fa2-ae82-80c2327a47f5">
+		<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w1" value="412"/>
+		<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w2" value="577"/>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="ApplicationAdapter"/>
+		<parameter name="P_LANGUAGE_TABLE" class="java.lang.String" nestedType="java.lang.String"/>
+		<query language="json"><![CDATA[accounts]]></query>
+		<field name="username" class="java.lang.String">
+			<description><![CDATA[username]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="username"/>
+		</field>
+		<field name="risk" class="java.lang.Integer">
+			<description><![CDATA[risk]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="risk"/>
+		</field>
+		<field name="created_date" class="java.lang.String">
+			<description><![CDATA[created_date]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="created_date"/>
+		</field>
+		<field name="last_change" class="java.lang.String">
+			<description><![CDATA[last_change]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="last_change"/>
+		</field>
+		<field name="is_dormant" class="java.lang.Boolean">
+			<description><![CDATA[is_dormant]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="is_dormant"/>
+		</field>
+		<field name="is_orphan" class="java.lang.Boolean">
+			<description><![CDATA[is_orphan]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="is_orphan"/>
+		</field>
+		<field name="is_password_expired" class="java.lang.Boolean">
+			<description><![CDATA[is_password_expired]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="is_password_expired"/>
+		</field>
+		<field name="is_privileged" class="java.lang.Boolean">
+			<description><![CDATA[is_privileged]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="is_privileged"/>
+		</field>
+		<field name="is_service" class="java.lang.Boolean">
+			<description><![CDATA[is_service]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="is_service"/>
+		</field>
+		<field name="is_sfa" class="java.lang.Boolean">
+			<description><![CDATA[is_sfa]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="is_sfa"/>
+		</field>
+		<field name="is_shared" class="java.lang.Boolean">
+			<description><![CDATA[is_shared]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="is_shared"/>
+		</field>
+		<field name="locked" class="java.lang.Boolean">
+			<description><![CDATA[locked]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="locked"/>
+		</field>
+		<field name="password_locked" class="java.lang.Boolean">
+			<description><![CDATA[password_locked]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="password_locked"/>
+		</field>
+		<field name="deleted" class="java.lang.Boolean">
+			<description><![CDATA[deleted]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="deleted"/>
+		</field>
+	</dataset>
+	<dataset name="AdapterEntitlements" uuid="04f61f64-ebb8-440d-8ef9-03fdf85a8c6c">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="ApplicationAdapter"/>
+		<parameter name="P_LANGUAGE_TABLE" class="java.lang.String" nestedType="java.lang.String"/>
+		<query language="json"><![CDATA[entitlements]]></query>
+		<field name="id" class="java.lang.Integer">
+			<description><![CDATA[id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="id"/>
+		</field>
+		<field name="privilege_id" class="java.lang.Long">
+			<description><![CDATA[privilege_id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="privilege_id"/>
+		</field>
+		<field name="name" class="java.lang.String">
+			<description><![CDATA[name]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="name"/>
+		</field>
+		<field name="description" class="java.lang.String">
+			<description><![CDATA[description]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="description"/>
+		</field>
+		<field name="is_privileged" class="java.lang.Boolean">
+			<description><![CDATA[is_privileged]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="is_privileged"/>
+		</field>
+		<field name="number_members" class="java.lang.Integer">
+			<description><![CDATA[number_members]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="number_members"/>
+		</field>
+		<field name="deleted" class="java.lang.String">
+			<description><![CDATA[deleted]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="deleted"/>
+		</field>
+		<field name="created_at" class="java.lang.String">
+			<description><![CDATA[created_at]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="created_at"/>
+		</field>
+		<field name="last_update" class="java.lang.String">
+			<description><![CDATA[last_update]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="last_update"/>
+		</field>
+		<field name="last_agent_request_sync_id" class="java.lang.Integer">
+			<description><![CDATA[last_agent_request_sync_id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="last_agent_request_sync_id"/>
+		</field>
+		<field name="app_instance_id" class="java.lang.Integer">
+			<description><![CDATA[app_instance_id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="app_instance_id"/>
+		</field>
+		<field name="tenant_id" class="java.lang.String">
+			<description><![CDATA[tenant_id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="tenant_id"/>
+		</field>
+		<field name="app_name" class="java.lang.String">
+			<description><![CDATA[app_name]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="app_name"/>
+		</field>
+		<field name="entitlement_type_id" class="java.lang.Integer">
+			<description><![CDATA[entitlement_type_id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="entitlement_type_id"/>
+		</field>
+		<field name="entitlement_type_desc_en" class="java.lang.String">
+			<description><![CDATA[entitlement_type_desc_en]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="entitlement_type_desc_en"/>
+		</field>
+		<field name="entitlement_type_desc_es" class="java.lang.String">
+			<description><![CDATA[entitlement_type_desc_es]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="entitlement_type_desc_es"/>
+		</field>
+	</dataset>
+	<dataset name="AdapterGrants" uuid="0d10a303-aa2e-4e2b-bccd-6d0140b4e6a5">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="ApplicationAdapter"/>
+		<parameter name="P_LANGUAGE_TABLE" class="java.lang.String" nestedType="java.lang.String"/>
+		<query language="json"><![CDATA[grants]]></query>
+		<field name="id" class="java.lang.Integer">
+			<description><![CDATA[id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="id"/>
+		</field>
+		<field name="tenant_id" class="java.lang.String">
+			<description><![CDATA[tenant_id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="tenant_id"/>
+		</field>
+		<field name="last_agent_request_sync_id" class="java.lang.Integer">
+			<description><![CDATA[last_agent_request_sync_id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="last_agent_request_sync_id"/>
+		</field>
+		<field name="privilege_key" class="java.lang.Integer">
+			<description><![CDATA[privilege_key]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="privilege_key"/>
+		</field>
+		<field name="account_id" class="java.lang.Integer">
+			<description><![CDATA[account_id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="account_id"/>
+		</field>
+		<field name="privilege_id" class="java.lang.Long">
+			<description><![CDATA[privilege_id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="privilege_id"/>
+		</field>
+		<field name="privilege_name" class="java.lang.String">
+			<description><![CDATA[privilege_name]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="privilege_name"/>
+		</field>
+		<field name="username" class="java.lang.String">
+			<description><![CDATA[username]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="username"/>
+		</field>
+		<field name="deleted" class="java.lang.String">
+			<description><![CDATA[deleted]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="deleted"/>
+		</field>
+		<field name="app_instance_id" class="java.lang.Integer">
+			<description><![CDATA[app_instance_id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="app_instance_id"/>
+		</field>
+		<field name="created_at" class="java.lang.String">
+			<description><![CDATA[created_at]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="created_at"/>
+		</field>
+		<field name="last_update" class="java.lang.String">
+			<description><![CDATA[last_update]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="last_update"/>
+		</field>
+		<field name="entitlement_type_id" class="java.lang.Integer">
+			<description><![CDATA[entitlement_type_id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="entitlement_type_id"/>
+		</field>
+		<field name="entitlement_type_desc_en" class="java.lang.String">
+			<description><![CDATA[entitlement_type_desc_en]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="entitlement_type_desc_en"/>
+		</field>
+		<field name="entitlement_type_desc_es" class="java.lang.String">
+			<description><![CDATA[entitlement_type_desc_es]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="entitlement_type_desc_es"/>
+		</field>
+	</dataset>
+	<dataset name="DataAdapterFlags" uuid="935aeabf-9a35-4c39-879a-d1df8ee4bb85">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="ApplicationAdapter"/>
+		<parameter name="P_LANGUAGE_TABLE" class="java.lang.String" nestedType="java.lang.String"/>
+		<query language="json"><![CDATA[flags]]></query>
+		<field name="id" class="java.lang.Integer">
+			<description><![CDATA[id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="id"/>
+		</field>
+		<field name="title_en" class="java.lang.String">
+			<description><![CDATA[title_en]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="title_en"/>
+		</field>
+		<field name="title_es" class="java.lang.String">
+			<description><![CDATA[title_es]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="title_es"/>
+		</field>
+		<field name="description_en" class="java.lang.String">
+			<description><![CDATA[description_en]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="description_en"/>
+		</field>
+		<field name="description_es" class="java.lang.String">
+			<description><![CDATA[description_es]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="description_es"/>
+		</field>
+		<field name="avatar" class="java.lang.String">
+			<description><![CDATA[avatar]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="avatar"/>
+		</field>
+	</dataset>
+	<dataset name="DS_AccountsDonut" uuid="11f0c426-2b0b-4d93-81dc-4960635733e5">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="ApplicationAdapter"/>
+		<query language="json"><![CDATA[accountsDonut]]></query>
+		<field name="order" class="java.lang.Integer">
+			<description><![CDATA[order]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="order"/>
+		</field>
+		<field name="label_en" class="java.lang.String">
+			<description><![CDATA[label_en]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="label_en"/>
+		</field>
+		<field name="label_es" class="java.lang.String">
+			<description><![CDATA[label_es]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="label_es"/>
+		</field>
+		<field name="count" class="java.lang.Integer">
+			<description><![CDATA[count]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="count"/>
+		</field>
+		<field name="percentage" class="java.lang.Integer">
+			<description><![CDATA[percentage]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="percentage"/>
+		</field>
+		<field name="iconUrl" class="java.lang.String">
+			<description><![CDATA[iconUrl]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="iconUrl"/>
+		</field>
+	</dataset>
+	<dataset name="DS_EntitlementsDonut" uuid="6fd67a9d-a9e1-4dae-9f6b-9cd9ad53d655">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="ApplicationAdapter"/>
+		<query language="json"><![CDATA[entitlementsDonut]]></query>
+		<field name="order" class="java.lang.Integer">
+			<description><![CDATA[order]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="order"/>
+		</field>
+		<field name="label_en" class="java.lang.String">
+			<description><![CDATA[label_en]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="label_en"/>
+		</field>
+		<field name="label_es" class="java.lang.String">
+			<description><![CDATA[label_es]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="label_es"/>
+		</field>
+		<field name="count" class="java.lang.Integer">
+			<description><![CDATA[count]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="count"/>
+		</field>
+		<field name="percentage" class="java.lang.Integer">
+			<description><![CDATA[percentage]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="percentage"/>
+		</field>
+		<field name="iconUrl" class="java.lang.String">
+			<description><![CDATA[iconUrl]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="iconUrl"/>
+		</field>
+	</dataset>
+	<dataset name="DEMOADAPTER" uuid="3a1c8b03-360d-4a25-bb94-4f48d6eb4ac8">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="ApplicationAdapter"/>
+		<query language="json"><![CDATA[anomalies]]></query>
+		<field name="id" class="java.lang.Integer">
+			<description><![CDATA[id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="id"/>
+		</field>
+		<field name="anomaly_type_id" class="java.lang.Integer">
+			<description><![CDATA[anomaly_type_id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="anomaly_type_id"/>
+		</field>
+		<field name="account_id" class="java.lang.Integer">
+			<description><![CDATA[account_id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="account_id"/>
+		</field>
+		<field name="app_instance_id" class="java.lang.Integer">
+			<description><![CDATA[app_instance_id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="app_instance_id"/>
+		</field>
+		<field name="created_at" class="java.lang.String">
+			<description><![CDATA[created_at]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="created_at"/>
+		</field>
+		<field name="tenant_id" class="java.lang.String">
+			<description><![CDATA[tenant_id]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="tenant_id"/>
+		</field>
+		<field name="username" class="java.lang.String">
+			<description><![CDATA[username]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="username"/>
+		</field>
+		<field name="app_name" class="java.lang.String">
+			<description><![CDATA[app_name]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="app_name"/>
+		</field>
+		<field name="description_en" class="java.lang.String">
+			<description><![CDATA[description_en]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="description_en"/>
+		</field>
+		<field name="description_es" class="java.lang.String">
+			<description><![CDATA[description_es]]></description>
+			<property name="net.sf.jasperreports.json.field.expression" value="description_es"/>
+		</field>
+	</dataset>
+	<scriptlet name="TocScriptlet" class="net.sf.jasperreports.engine.JRDefaultScriptlet">
+		<description><![CDATA[]]></description>
+	</scriptlet>
+	<parameter name="JSON_INPUT_STREAM" forPrompting="false" class="java.io.InputStream"/>
+	<parameter name="net.sf.jasperreports.json.source" forPrompting="false" class="java.lang.String"/>
+	<parameter name="net.sf.jasperreports.json.sources" forPrompting="false" class="java.util.List"/>
+	<parameter name="net.sf.jasperreports.json.date.pattern" forPrompting="false" class="java.lang.String"/>
+	<parameter name="net.sf.jasperreports.json.number.pattern" forPrompting="false" class="java.lang.String"/>
+	<parameter name="JSON_LOCALE" forPrompting="false" class="java.util.Locale"/>
+	<parameter name="net.sf.jasperreports.json.locale.code" forPrompting="false" class="java.lang.String"/>
+	<parameter name="JSON_TIME_ZONE" forPrompting="false" class="java.util.TimeZone"/>
+	<parameter name="net.sf.jasperreports.json.timezone.id" forPrompting="false" class="java.lang.String"/>
+	<parameter name="JSON_DATA" class="java.lang.String"/>
+	<query language="jsonql"><![CDATA[$]]></query>
+	<field name="reportSections.showGrants" class="java.lang.Boolean"/>
+	<field name="reportSections.showEntitlements" class="java.lang.Boolean"/>
+	<field name="reportSections.showFlags" class="java.lang.Boolean"/>
+	<field name="reportSections.showAccounts" class="java.lang.Boolean"/>
+	<field name="reportSections.showAnomalies" class="java.lang.Boolean"/>
+	<field name="reportSections.showStatistics" class="java.lang.Boolean"/>
+	<field name="reportSections.showDetails" class="java.lang.Boolean"/>
+	<field name="reportSections.language" class="java.lang.String"/>
+	<field name="application.name" class="java.lang.String"/>
+	<field name="application.description" class="java.lang.String">
+		<description><![CDATA[]]></description>
+	</field>
+	<field name="application.app_catalog.description" class="java.lang.String">
+		<description><![CDATA[]]></description>
+	</field>
+	<field name="application.risk" class="java.lang.Integer"/>
+	<field name="application.rules.expired_password" class="java.lang.String"/>
+	<field name="application.rules.dormant_period" class="java.lang.Integer">
+		<description><![CDATA[]]></description>
+	</field>
+	<field name="application.rules.name" class="java.lang.String"/>
+	<field name="application.rues.alert_dormant_period" class="java.lang.Boolean"/>
+	<field name="application.rules.alert_expired_password" class="java.lang.Boolean"/>
+	<field name="application.rules.alert_orphan_account" class="java.lang.Boolean"/>
+	<field name="application.rules.alert_sfa_account" class="java.lang.Boolean"/>
+	<field name="statistics[0].count" class="java.lang.Integer">
+		<description><![CDATA[]]></description>
+	</field>
+	<field name="statistics[0].label_es" class="java.lang.String"/>
+	<field name="statistics[0].label_en" class="java.lang.String"/>
+	<field name="statistics[0].iconUrl" class="java.lang.String"/>
+	<field name="statistics[1].count" class="java.lang.Integer"/>
+	<field name="statistics[1].label_es" class="java.lang.String"/>
+	<field name="statistics[1].label_en" class="java.lang.String"/>
+	<field name="statistics[1].iconUrl" class="java.lang.String"/>
+	<field name="statistics[2].count" class="java.lang.Integer"/>
+	<field name="statistics[2].label_es" class="java.lang.String"/>
+	<field name="statistics[2].label_en" class="java.lang.String"/>
+	<field name="statistics[2].iconUrl" class="java.lang.String"/>
+	<field name="statistics[3].count" class="java.lang.Integer"/>
+	<field name="statistics[3].label_es" class="java.lang.String"/>
+	<field name="statistics[3].label_en" class="java.lang.String"/>
+	<field name="statistics[3].iconUrl" class="java.lang.String"/>
+	<field name="anomaliesStats[0].count" class="java.lang.Integer"/>
+	<field name="anomaliesStats[0].label_es" class="java.lang.String"/>
+	<field name="anomaliesStats[0].label_en" class="java.lang.String"/>
+	<field name="anomaliesStats[0].percentage" class="java.lang.Integer"/>
+	<field name="anomaliesStats[0].iconUrl" class="java.lang.String"/>
+	<field name="anomaliesStats[1].count" class="java.lang.Integer"/>
+	<field name="anomaliesStats[1].label_es" class="java.lang.String"/>
+	<field name="anomaliesStats[1].label_en" class="java.lang.String"/>
+	<field name="anomaliesStats[1].percentage" class="java.lang.Integer"/>
+	<field name="anomaliesStats[1].iconUrl" class="java.lang.String"/>
+	<field name="anomaliesStats[2].count" class="java.lang.Integer"/>
+	<field name="anomaliesStats[2].label_es" class="java.lang.String"/>
+	<field name="anomaliesStats[2].label_en" class="java.lang.String"/>
+	<field name="anomaliesStats[2].percentage" class="java.lang.Integer"/>
+	<field name="anomaliesStats[2].iconUrl" class="java.lang.String"/>
+	<field name="anomaliesStats[3].count" class="java.lang.Integer"/>
+	<field name="anomaliesStats[3].label_es" class="java.lang.String"/>
+	<field name="anomaliesStats[3].label_en" class="java.lang.String"/>
+	<field name="anomaliesStats[3].percentage" class="java.lang.Integer"/>
+	<field name="anomaliesStats[3].iconUrl" class="java.lang.String"/>
+	<field name="accountsDonut[0].count" class="java.lang.Integer"/>
+	<field name="accountsDonut[0].percentage" class="java.lang.Integer"/>
+	<field name="accountsDonut[0].label_es" class="java.lang.String"/>
+	<field name="accountsDonut[0].label_en" class="java.lang.String"/>
+	<field name="accountsDonut[1].percentage" class="java.lang.Integer"/>
+	<field name="accountsDonut[1].count" class="java.lang.Integer"/>
+	<field name="accountsDonut[1].label_es" class="java.lang.String"/>
+	<field name="accountsDonut[1].label_en" class="java.lang.String"/>
+	<field name="accountsDonut[2].count" class="java.lang.Integer"/>
+	<field name="accountsDonut[2].percentage" class="java.lang.Integer"/>
+	<field name="accountsDonut[2].label_es" class="java.lang.String"/>
+	<field name="accountsDonut[2].label_en" class="java.lang.String"/>
+	<field name="accountsBars[0].count" class="java.lang.Integer"/>
+	<field name="accountsBars[0].percentage" class="java.lang.Integer"/>
+	<field name="accountsBars[0].label_es" class="java.lang.String"/>
+	<field name="accountsBars[0].label_en" class="java.lang.String"/>
+	<field name="accountsBars[1].count" class="java.lang.Integer"/>
+	<field name="accountsBars[1].percentage" class="java.lang.Integer"/>
+	<field name="accountsBars[1].label_es" class="java.lang.String"/>
+	<field name="accountsBars[1].label_en" class="java.lang.String"/>
+	<field name="accountsBars[2].count" class="java.lang.Integer"/>
+	<field name="accountsBars[2].percentage" class="java.lang.Integer"/>
+	<field name="accountsBars[2].label_es" class="java.lang.String"/>
+	<field name="accountsBars[2].label_en" class="java.lang.String"/>
+	<field name="accountRisks[0].count" class="java.lang.Integer"/>
+	<field name="accountRisks[0].percentage" class="java.lang.Integer"/>
+	<field name="accountRisks[0].label_es" class="java.lang.String"/>
+	<field name="accountRisks[0].label_en" class="java.lang.String"/>
+	<field name="accountRisks[1].count" class="java.lang.Integer"/>
+	<field name="accountRisks[1].percentage" class="java.lang.String"/>
+	<field name="accountRisks[1].label_es" class="java.lang.String"/>
+	<field name="accountRisks[1].label_en" class="java.lang.String"/>
+	<field name="accountRisks[2].count" class="java.lang.Integer"/>
+	<field name="accountRisks[2].percentage" class="java.lang.Integer"/>
+	<field name="accountRisks[2].label_es" class="java.lang.String"/>
+	<field name="accountRisks[2].label_en" class="java.lang.String"/>
+	<field name="accountRisks[3].count" class="java.lang.Integer"/>
+	<field name="accountRisks[3].percentage" class="java.lang.Integer"/>
+	<field name="accountRisks[3].label_es" class="java.lang.String"/>
+	<field name="accountRisks[3].label_en" class="java.lang.String"/>
+	<field name="entitlementsDonut[0].count" class="java.lang.Integer"/>
+	<field name="entitlementsDonut[0].label_es" class="java.lang.String"/>
+	<field name="entitlementsDonut[0].label_en" class="java.lang.String"/>
+	<field name="entitlementsDonut[0].percentage" class="java.lang.Integer"/>
+	<field name="entitlementsDonut[1].count" class="java.lang.Integer"/>
+	<field name="entitlementsDonut[1].label_es" class="java.lang.String"/>
+	<field name="entitlementsDonut[1].label_en" class="java.lang.String"/>
+	<field name="entitlementsDonut[1].percentage" class="java.lang.Integer"/>
+	<field name="entitlementsDonut[2].count" class="java.lang.Integer"/>
+	<field name="entitlementsDonut[2].label_es" class="java.lang.String"/>
+	<field name="entitlementsDonut[2].label_en" class="java.lang.String"/>
+	<field name="entitlementsDonut[2].percentage" class="java.lang.String"/>
+	<field name="entitlementsBars[0].count" class="java.lang.Integer"/>
+	<field name="entitlementsBars[0].label_es" class="java.lang.String"/>
+	<field name="entitlementsBars[0].label_en" class="java.lang.String"/>
+	<field name="entitlementsBars[0].percentage" class="java.lang.Integer"/>
+	<field name="grantsBars[0].count" class="java.lang.Integer"/>
+	<field name="grantsBars[0].percentage" class="java.lang.Integer"/>
+	<field name="grantsBars[0].label_es" class="java.lang.String"/>
+	<field name="grantsBars[0].label_en" class="java.lang.String"/>
+	<field name="grantsBars[1].count" class="java.lang.Integer"/>
+	<field name="grantsBars[1].percentage" class="java.lang.Integer"/>
+	<field name="grantsBars[1].label_es" class="java.lang.String"/>
+	<field name="grantsBars[1].label_en" class="java.lang.String"/>
+	<field name="anomalies" class="java.lang.String">
+		<description><![CDATA[anomalies]]></description>
+	</field>
+	<field name="accounts" class="java.lang.String">
+		<description><![CDATA[Accounts data]]></description>
+	</field>
+	<field name="accountRisks.riskLevel" class="java.lang.String"/>
+	<variable name="vPage_AnomaliesStart" resetType="Group" resetGroup="G_Anomalies" class="java.lang.Integer">
+		<expression><![CDATA[($V{vPage_AnomaliesStart} == null) ? $V{vPage_AnomaliesStart} : $V{vPage_AnomaliesStart}]]></expression>
+	</variable>
+	<variable name="VAR_LANGUAGE" incrementType="Report" class="java.lang.String">
+		<expression><![CDATA[$F{reportSections.language}]]></expression>
+		<initialValueExpression><![CDATA[$F{reportSections.language}]]></initialValueExpression>
+	</variable>
+	<group name="G_TITLE" startNewPage="true">
+		<expression><![CDATA[new Integer(1)]]></expression>
+		<groupHeader>
+			<band height="470">
+				<element kind="image" uuid="e8c8e5cd-26d9-44c0-a012-1f3a1fd5c06b" x="0" y="10" width="554" height="340">
+					<expression><![CDATA["https://drive.google.com/uc?export=download&id=1WSczQjJjPtOFhFvc-588aFyBN9_ExJEe"]]></expression>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</element>
+				<element kind="textField" uuid="8cb35967-e3a2-4c27-aefb-e1bfa2fb6fb0" x="233" y="290" width="150" height="60" fontSize="47.0" bold="true">
+					<expression><![CDATA[$F{application.name}]]></expression>
+				</element>
+				<element kind="textField" uuid="72563957-e88b-43f5-af2b-23b49e173054" x="83" y="240" width="397" height="24" fontSize="16.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+					<expression><![CDATA[$F{reportSections.language}.equals("es") ? "Reporte de seguridad de identidad" : "Identity Security Report"]]></expression>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</element>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="50"/>
+		</groupFooter>
+	</group>
+	<group name="G_Details" startNewPage="true">
+		<expression><![CDATA[new Integer(2)]]></expression>
+		<groupHeader>
+			<band height="709">
+				<printWhenExpression><![CDATA[$F{reportSections.showDetails}]]></printWhenExpression>
+				<element kind="frame" uuid="c0ac7f36-81a8-4374-85eb-0c6ffd64e424" x="0" y="4" width="556" height="24">
+					<element kind="textField" uuid="bb5556c1-b8c2-462a-85b0-dd378b5c8e83" x="0" y="0" width="122" height="24" forecolor="#FB7462" fontSize="18.0" bold="true">
+						<expression><![CDATA[$F{reportSections.language}.equals("es") ? "Detalle" : "Detail"]]></expression>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</element>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#FB7462"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+				</element>
+				<element kind="frame" uuid="2b33a855-59ca-490f-927b-fe5bde1955b6" x="0" y="50" width="556" height="191">
+					<element kind="frame" uuid="9a8dcce2-e86c-45c0-a544-0fbd73917278" x="0" y="0" width="556" height="190">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<element kind="frame" uuid="20a275a5-e23c-4369-99f4-72a6e3bea6e0" x="0" y="2" width="555" height="30">
+							<element kind="textField" uuid="b20f6fbc-d231-434d-8b0c-529cfb82490a" x="302" y="0" width="238" height="30" hTextAlign="Left" vTextAlign="Middle">
+								<expression><![CDATA[$F{application.name}]]></expression>
+								<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							</element>
+							<element kind="textField" uuid="f0348ad5-18af-479c-845f-4decdaf938c8" x="20" y="0" width="180" height="30" fontSize="12.0" vTextAlign="Middle">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? "Nombre de la aplicación" : "Application name"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							</element>
+							<box>
+								<pen lineColor="#DEDEDE"/>
+								<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#DEDEDE"/>
+								<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#DEDEDE"/>
+								<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#DEDEDE"/>
+								<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#DEDEDE"/>
+							</box>
+						</element>
+						<element kind="frame" uuid="b2b23d03-6762-4936-afba-92bd4552795f" x="0" y="33" width="555" height="30">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<element kind="textField" uuid="32487020-71f2-42cb-bef6-43e67d187e79" x="302" y="0" width="238" height="30" vTextAlign="Middle">
+								<expression><![CDATA[$F{application.description}]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							</element>
+							<element kind="textField" uuid="9b78bbfc-f167-4cba-8580-b719e2401e93" x="20" y="0" width="180" height="30" fontSize="12.0" vTextAlign="Middle">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? "Descripción" : "Description"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							</element>
+							<box>
+								<pen lineColor="#DEDEDE"/>
+								<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#DEDEDE"/>
+								<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#DEDEDE"/>
+							</box>
+						</element>
+						<element kind="frame" uuid="bc2a6369-c1b5-478a-a5ec-3f2e186ebd88" x="0" y="64" width="555" height="97">
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<element kind="textField" uuid="c21e1892-5d00-44d3-9acf-1cd7fd4ba828" x="20" y="38" width="180" height="22" fontSize="12.0" bold="false" vTextAlign="Middle">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? "Conjunto de reglas" : "Set of rules"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+							<element kind="frame" uuid="59b2b832-b366-401f-83be-5c13f806dcb6" x="302" y="12" width="239" height="86">
+								<element kind="textField" uuid="3a518d49-f8be-4848-a511-b659d7bf7794" x="0" y="0" width="238" height="20" markup="html">
+									<expression><![CDATA[$F{application.rules.name}]]></expression>
+								</element>
+								<element kind="frame" uuid="739cccdc-3dad-4295-9d3d-9ad4f02b6062" x="0" y="17" width="239" height="58">
+									<element kind="frame" uuid="4290c3b9-1386-4950-9dcc-17a6e47f0d06" x="0" y="0" width="200" height="20">
+										<property name="com.jaspersoft.studio.unit.y" value="px"/>
+										<property name="com.jaspersoft.studio.unit.x" value="px"/>
+										<element kind="image" uuid="afcc2ffe-7818-43a6-836e-99d58630ab1b" x="0" y="2" width="29" height="17">
+											<expression><![CDATA[$F{application.rules.alert_expired_password} == true ? 
+"https://report-files.idrules.ai/Cuentas-dormidas-verde.svg" : "https://report-files.idrules.ai/No-Aplica-Bandera.svg"]]></expression>
+											<property name="com.jaspersoft.studio.unit.x" value="px"/>
+										</element>
+										<element kind="image" uuid="4d1f02f8-48fd-4623-b12e-fb6c05b6ba2e" x="20" y="2" width="29" height="17">
+											<expression><![CDATA[$F{application.rules.alert_expired_password} == true ? 
+"https://drive.google.com/uc?export=download&id=1YoOpOfZNi8YbEzIK5mMO6LhI7Enj_reh" : "https://report-files.idrules.ai/No-Aplica-Bandera.svg"]]></expression>
+											<property name="com.jaspersoft.studio.unit.x" value="px"/>
+										</element>
+										<element kind="image" uuid="fa45051c-cc71-4b3c-a080-6a9520c47f55" x="40" y="2" width="29" height="17">
+											<expression><![CDATA[$F{application.rules.alert_orphan_account} == true ?  "https://report-files.idrules.ai/Cuentas-huerfanas-verde.svg" : "https://report-files.idrules.ai/No-Aplica-Bandera.svg"]]></expression>
+											<property name="com.jaspersoft.studio.unit.x" value="px"/>
+										</element>
+										<element kind="image" uuid="36887c57-a9bf-4919-864b-1a1002ef95d2" x="60" y="2" width="29" height="17">
+											<expression><![CDATA[$F{application.rules.alert_sfa_account} == true ? "https://report-files.idrules.ai/Sin-MFA-verde.svg" : "https://report-files.idrules.ai/No-Aplica-Bandera.svg"]]></expression>
+											<property name="com.jaspersoft.studio.unit.x" value="px"/>
+										</element>
+									</element>
+									<element kind="textField" uuid="5b0829fa-c344-4e41-ae01-0010c8354e2f" x="0" y="25" width="238" height="30" markup="html">
+										<expression><![CDATA["La contraseña expira a los: <b>" + $F{application.rules.expired_password}  + " " +  " días </b>"]]></expression>
+										<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+										<property name="com.jaspersoft.studio.unit.y" value="px"/>
+									</element>
+									<element kind="textField" uuid="91a12346-02dc-464a-8492-2ee09465d443" x="0" y="43" width="239" height="26" markup="html">
+										<expression><![CDATA["La cuenta se considera inactiva a los:  <b>" + $F{application.rules.dormant_period} +  " <b>" + " días"]]></expression>
+										<property name="com.jaspersoft.studio.unit.x" value="px"/>
+										<property name="com.jaspersoft.studio.unit.y" value="px"/>
+									</element>
+								</element>
+							</element>
+							<box>
+								<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#DEDEDE"/>
+								<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#DEDEDE"/>
+								<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+								<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#DEDEDE"/>
+							</box>
+						</element>
+						<element kind="line" uuid="b08c1371-bf84-4de1-862e-81a5b629669e" x="282" y="2" width="1" height="190" forecolor="#DEDEDE" backcolor="#FFFFFF">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						</element>
+						<element kind="frame" uuid="e0b41ea5-91e7-4abb-bdbf-95e78afc3883" x="0" y="162" width="555" height="30">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<element kind="textField" uuid="74961b6c-9c33-40a7-8778-cb2f56515d5a" x="20" y="0" width="180" height="30" fontSize="12.0" bold="false" vTextAlign="Middle">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? "Tipo de servicio" : "Type of service"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+							<element kind="textField" uuid="f61e70e4-3b7d-48c8-ab13-f553cbf77c69" x="302" y="0" width="238" height="30" vTextAlign="Middle">
+								<expression><![CDATA[$F{application.app_catalog.description}]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							</element>
+							<box>
+								<pen lineColor="#DEDEDE"/>
+								<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#DEDEDE"/>
+								<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#DEDEDE"/>
+								<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#DEDEDE"/>
+								<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#DEDEDE"/>
+							</box>
+						</element>
+						<box>
+							<pen lineColor="#DEDEDE"/>
+							<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+					</element>
+				</element>
+				<element kind="frame" uuid="7d6dc08c-8c55-47c1-8059-2a959825598e" x="0" y="290" width="556" height="24">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<element kind="textField" uuid="6ec3b708-edb9-4878-bdba-0484d87216b0" x="0" y="0" width="123" height="24" forecolor="#FB7462" fontSize="18.0" bold="true">
+						<expression><![CDATA[$F{reportSections.language}.equals("es") ? "Estadísticas" : "Statistics"]]></expression>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</element>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#FB7462"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+				</element>
+				<element kind="frame" uuid="681fc601-440d-47de-a390-b14e42a8be12" x="0" y="420" width="553" height="187">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<element kind="rectangle" uuid="03725b83-9dfe-4f44-b5ae-cc6c19aea1cf" x="0" y="12" width="553" height="172" forecolor="#D8D8D8" radius="5">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<pen lineColor="#D8D8D8"/>
+					</element>
+					<element kind="textField" uuid="d729f83c-e5f6-4a4c-bd76-ae6def155717" x="8" y="15" width="100" height="28" fontSize="16.0">
+						<expression><![CDATA[$F{reportSections.language}.equals("es") ? "Anomalías" :  "Anomalies"]]></expression>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</element>
+					<element kind="frame" uuid="83c60eab-38c1-4632-83a0-99d44e4d1cd2" x="9" y="53" width="277" height="51">
+						<element kind="frame" uuid="9fd25b8d-a4ca-473e-ae8b-0830a673121c" x="40" y="0" width="65" height="51">
+							<element kind="textField" uuid="9ec82710-5f63-4502-a9e3-fae7405b39ab" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{anomaliesStats[0].count}]]></expression>
+							</element>
+							<element kind="textField" uuid="45a44822-3bde-49af-b449-e9b3da89edcd" x="3" y="21" width="54" height="24">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{anomaliesStats[0].label_es} : $F{anomaliesStats[0].label_en}]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="0e9df982-5397-425c-b9ee-d8d33d0d8a6d" x="0" y="5" width="40" height="40">
+							<element kind="image" uuid="3eaf223b-f8b2-47dd-bb44-6d3421c839f5" x="2" y="2" width="36" height="36">
+								<expression><![CDATA[$F{anomaliesStats[0].iconUrl}]]></expression>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="fc3177cf-210a-401b-9e7d-53f94e4c7630" x="90" y="8" width="176" height="39">
+							<element kind="chart" chartType="stackedBar" uuid="e962fa1d-95b3-4e7b-8bdc-e0418a7c418e" mode="Transparent" x="0" y="11" width="120" height="15" showLegend="false" evaluationTime="Report" subtitleColor="#2BBAB8" removeLineWhenBlank="true" style="sBadge">
+								<dataset kind="category">
+									<series>
+										<seriesExpression><![CDATA["DONE"]]></seriesExpression>
+										<categoryExpression><![CDATA["progress"]]></categoryExpression>
+										<valueExpression><![CDATA[$F{anomaliesStats[0].count}]]></valueExpression>
+									</series>
+									<series>
+										<seriesExpression><![CDATA["TODO"]]></seriesExpression>
+										<categoryExpression><![CDATA["progress"]]></categoryExpression>
+										<valueExpression><![CDATA[100-$F{anomaliesStats[0].count}]]></valueExpression>
+									</series>
+								</dataset>
+								<plot orientation="Horizontal" categoryAxisLabelColor="#FFFFFF" categoryAxisTickLabelColor="#FFFFFF" categoryAxisLineColor="#030303" valueAxisLabelColor="#FFFFFF" valueAxisTickLabelColor="#FFFFFF" valueAxisLineColor="#FFFFFF" showTickMarks="false" showTickLabels="false" showLabels="false">
+									<itemLabel/>
+									<seriesColor order="0" color="#A81426"/>
+									<seriesColor order="1" color="#D8D8D8"/>
+								</plot>
+								<box style="sBadge">
+									<pen lineWidth="1.0" lineStyle="Dashed"/>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+							</element>
+							<element kind="textField" uuid="2d68aa01-4ccb-4c2a-8652-db4b90540114" x="118" y="11" width="53" height="28" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{anomaliesStats[0].percentage} + "%"]]></expression>
+							</element>
+						</element>
+					</element>
+					<element kind="frame" uuid="ec35c942-44ec-41c5-8ce5-d719d54ed7c3" x="9" y="118" width="277" height="51">
+						<element kind="frame" uuid="0305559a-678a-4f5c-96f1-65713be89213" x="40" y="0" width="65" height="51">
+							<element kind="textField" uuid="f2dfd8a2-8189-44b2-b65e-1624a822361f" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{anomaliesStats[1].count}]]></expression>
+							</element>
+							<element kind="textField" uuid="a06ea0ef-7bf5-4c3e-8bda-cbf93682fd3b" x="3" y="21" width="54" height="24">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{anomaliesStats[1].label_es} : $F{anomaliesStats[1].label_en}]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="be6ea475-1bf6-4ff7-9a5f-be0a2f72f5c8" x="90" y="8" width="176" height="39">
+							<element kind="chart" chartType="stackedBar" uuid="b3730916-8492-47e8-b7a3-2b655de953f4" mode="Transparent" x="0" y="11" width="120" height="15" showLegend="false" evaluationTime="Report" subtitleColor="#2BBAB8" removeLineWhenBlank="true" style="sBadge">
+								<dataset kind="category">
+									<series>
+										<seriesExpression><![CDATA["DONE"]]></seriesExpression>
+										<categoryExpression><![CDATA["progress"]]></categoryExpression>
+										<valueExpression><![CDATA[$F{anomaliesStats[1].count}]]></valueExpression>
+									</series>
+									<series>
+										<seriesExpression><![CDATA["TODO"]]></seriesExpression>
+										<categoryExpression><![CDATA["progress"]]></categoryExpression>
+										<valueExpression><![CDATA[100-$F{anomaliesStats[1].count}]]></valueExpression>
+									</series>
+								</dataset>
+								<plot orientation="Horizontal" categoryAxisLabelColor="#FFFFFF" categoryAxisTickLabelColor="#FFFFFF" categoryAxisLineColor="#030303" valueAxisLabelColor="#FFFFFF" valueAxisTickLabelColor="#FFFFFF" valueAxisLineColor="#FFFFFF" showTickMarks="false" showTickLabels="false" showLabels="false">
+									<itemLabel/>
+									<seriesColor order="0" color="#A81426"/>
+									<seriesColor order="1" color="#D8D8D8"/>
+								</plot>
+								<box style="sBadge">
+									<pen lineWidth="1.0" lineStyle="Dashed"/>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+							</element>
+							<element kind="textField" uuid="47467d05-3c94-4757-84bf-d5195263735b" x="118" y="11" width="53" height="28" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{anomaliesStats[1].percentage} + "%"]]></expression>
+							</element>
+						</element>
+						<element kind="frame" uuid="0ce6d981-4dd8-4d9e-9f17-76110384245d" x="0" y="5" width="40" height="40">
+							<element kind="image" uuid="09333662-cc76-4b41-83f1-5c6d688ef864" x="2" y="2" width="36" height="36">
+								<expression><![CDATA[$F{anomaliesStats[1].iconUrl}]]></expression>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							</element>
+						</element>
+					</element>
+					<element kind="frame" uuid="2553ae4a-cf0a-4bf4-9a64-567f9acd52db" x="306" y="53" width="245" height="51">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<element kind="frame" uuid="3b94ed73-4fc9-4116-9569-88aca1a74100" x="40" y="0" width="65" height="51">
+							<element kind="textField" uuid="b0b74280-f073-4cc4-92de-a329ac09ae3d" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{anomaliesStats[2].count}]]></expression>
+							</element>
+							<element kind="textField" uuid="231dcc95-30d6-477e-85f1-aa7949885056" x="3" y="21" width="54" height="24">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{anomaliesStats[2].label_es} : $F{anomaliesStats[2].label_en}]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="d7de10a7-7cb2-44c5-a52f-b7577bf24e9e" x="84" y="8" width="161" height="39">
+							<element kind="chart" chartType="stackedBar" uuid="b982e0fd-6479-4369-95aa-8a7f57ed5d47" mode="Transparent" x="0" y="11" width="120" height="15" showLegend="false" evaluationTime="Report" subtitleColor="#2BBAB8" removeLineWhenBlank="true" style="sBadge">
+								<dataset kind="category">
+									<series>
+										<seriesExpression><![CDATA["DONE"]]></seriesExpression>
+										<categoryExpression><![CDATA["progress"]]></categoryExpression>
+										<valueExpression><![CDATA[$F{anomaliesStats[2].count}]]></valueExpression>
+									</series>
+									<series>
+										<seriesExpression><![CDATA["TODO"]]></seriesExpression>
+										<categoryExpression><![CDATA["progress"]]></categoryExpression>
+										<valueExpression><![CDATA[100-$F{anomaliesStats[2].count}]]></valueExpression>
+									</series>
+								</dataset>
+								<plot orientation="Horizontal" categoryAxisLabelColor="#FFFFFF" categoryAxisTickLabelColor="#FFFFFF" categoryAxisLineColor="#030303" valueAxisLabelColor="#FFFFFF" valueAxisTickLabelColor="#FFFFFF" valueAxisLineColor="#FFFFFF" showTickMarks="false" showTickLabels="false" showLabels="false">
+									<itemLabel/>
+									<seriesColor order="0" color="#A81426"/>
+									<seriesColor order="1" color="#D8D8D8"/>
+								</plot>
+								<box style="sBadge">
+									<pen lineWidth="1.0" lineStyle="Dashed"/>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+							</element>
+							<element kind="textField" uuid="915635e6-893a-42fa-a8cb-e770b29ebb36" x="118" y="11" width="40" height="28" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{anomaliesStats[2].percentage} + "%"]]></expression>
+							</element>
+						</element>
+						<element kind="frame" uuid="5c84d896-4371-422e-b086-57b98af706a6" x="0" y="5" width="40" height="40">
+							<element kind="image" uuid="2f1406bc-3a0e-461c-9026-30e1219ced32" x="2" y="2" width="36" height="36">
+								<expression><![CDATA[$F{anomaliesStats[2].iconUrl}]]></expression>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							</element>
+						</element>
+					</element>
+					<element kind="frame" uuid="ab9fd1dd-325f-4bc6-9b98-ff78f559a5a6" x="311" y="118" width="241" height="51">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<element kind="frame" uuid="a0d2db1c-88d3-4adb-8c87-f7df6f7fd2c9" x="40" y="0" width="65" height="51">
+							<element kind="textField" uuid="b3bbe27b-d9cd-4ed7-ae24-841e7c62872d" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{anomaliesStats[3].count}]]></expression>
+							</element>
+							<element kind="textField" uuid="fcd82739-c345-49dd-a26e-c95e034cced5" x="3" y="21" width="54" height="24">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{anomaliesStats[3].label_es} : $F{anomaliesStats[3].label_en}]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="76c83071-1175-4c79-8c63-e15821c96148" x="0" y="5" width="40" height="40"/>
+						<element kind="frame" uuid="6efe88d4-53a4-40b9-947f-7e64de7a96af" x="84" y="8" width="157" height="39">
+							<element kind="chart" chartType="stackedBar" uuid="29d4f7af-691e-46c4-ad38-25b6ae0a844d" mode="Transparent" x="0" y="11" width="120" height="15" showLegend="false" evaluationTime="Report" subtitleColor="#2BBAB8" removeLineWhenBlank="true" style="sBadge">
+								<dataset kind="category">
+									<series>
+										<seriesExpression><![CDATA["DONE"]]></seriesExpression>
+										<categoryExpression><![CDATA["progress"]]></categoryExpression>
+										<valueExpression><![CDATA[$F{anomaliesStats[3].count}]]></valueExpression>
+									</series>
+									<series>
+										<seriesExpression><![CDATA["TODO"]]></seriesExpression>
+										<categoryExpression><![CDATA["progress"]]></categoryExpression>
+										<valueExpression><![CDATA[100-$F{anomaliesStats[3].count}]]></valueExpression>
+									</series>
+								</dataset>
+								<plot orientation="Horizontal" categoryAxisLabelColor="#FFFFFF" categoryAxisTickLabelColor="#FFFFFF" categoryAxisLineColor="#030303" valueAxisLabelColor="#FFFFFF" valueAxisTickLabelColor="#FFFFFF" valueAxisLineColor="#FFFFFF" showTickMarks="false" showTickLabels="false" showLabels="false">
+									<itemLabel/>
+									<seriesColor order="0" color="#A81426"/>
+									<seriesColor order="1" color="#D8D8D8"/>
+								</plot>
+								<box style="sBadge">
+									<pen lineWidth="1.0" lineStyle="Dashed"/>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+							</element>
+							<element kind="textField" uuid="263a6b9f-a14c-4dc2-882e-a0a80132d2e9" x="118" y="11" width="36" height="28" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{anomaliesStats[3].percentage} + "%"]]></expression>
+							</element>
+						</element>
+						<element kind="frame" uuid="f6ed8527-dee2-4841-a7ff-b47a3864c769" x="0" y="5" width="40" height="40">
+							<element kind="image" uuid="63606fad-361c-432d-ba75-34249da0fee6" x="2" y="2" width="36" height="36">
+								<expression><![CDATA[$F{anomaliesStats[3].iconUrl}]]></expression>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							</element>
+						</element>
+					</element>
+				</element>
+				<element kind="frame" uuid="9b2e1171-39bd-4cba-93e9-b2c4f3b358a3" x="0" y="340" width="553" height="53">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<element kind="rectangle" uuid="621677a8-c31f-4460-baa3-f2d3e3cf7fe5" x="0" y="4" width="553" height="50" forecolor="#D8D8D8" radius="5">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</element>
+					<element kind="frame" uuid="b9439e77-d994-4fc6-8e2a-88a98f0247fa" x="4" y="6" width="106" height="51">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<element kind="frame" uuid="e6050b27-a8f8-485b-a096-17ea20c975dc" x="40" y="0" width="65" height="51">
+							<element kind="textField" uuid="c3bb5d1d-1099-4148-a551-085b26c2dfb8" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{statistics[0].count}]]></expression>
+							</element>
+							<element kind="textField" uuid="c447ea8c-986f-442d-871f-048cf6acb6b4" x="3" y="21" width="54" height="24">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{statistics[0].label_es} : $F{statistics[0].label_en}]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="1915e247-5137-4455-9ece-5b2628c20f53" x="0" y="5" width="40" height="40">
+							<element kind="image" uuid="819c227e-9833-47c9-8fe0-d6d01547f1ce" x="7" y="5" width="26" height="27">
+								<expression><![CDATA[$F{statistics[0].iconUrl}]]></expression>
+								<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							</element>
+						</element>
+					</element>
+					<element kind="frame" uuid="3bb16765-7818-42e0-a21c-9c7c65583b08" x="113" y="6" width="105" height="51">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<element kind="frame" uuid="f1d2215c-3550-4b83-8b7d-dc4480cc7ddb" x="40" y="0" width="65" height="51">
+							<element kind="textField" uuid="855b1e88-4156-402c-8156-fac5ff33da25" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{statistics[1].count}]]></expression>
+							</element>
+							<element kind="textField" uuid="417a8976-70e6-402b-9cab-bb6ab7dfd850" x="3" y="21" width="54" height="24">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{statistics[1].label_es} : $F{statistics[1].label_en}]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="88c0cd44-89c5-4e30-bbce-e8b1f308bc88" x="0" y="5" width="40" height="40">
+							<element kind="image" uuid="069463e2-cf4f-4231-a06b-b590d7c47bae" x="7" y="5" width="26" height="27">
+								<expression><![CDATA[$F{statistics[1].iconUrl}]]></expression>
+								<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							</element>
+						</element>
+					</element>
+					<element kind="frame" uuid="483db556-005a-4179-9877-c3a75ea41baa" x="224" y="6" width="106" height="51">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<element kind="frame" uuid="af47fbef-279f-4d5d-be57-37a4fe698e97" x="40" y="0" width="65" height="51">
+							<element kind="textField" uuid="fb715149-09e1-468f-8e00-b7e09eca2acf" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{statistics[2].count}]]></expression>
+							</element>
+							<element kind="textField" uuid="392ab124-e24c-490a-96df-aa4bab7da7e1" x="3" y="21" width="62" height="24">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{statistics[2].label_es} : $F{statistics[2].label_en}]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="c305c330-9071-40f5-ad72-684d2b4b97b1" x="0" y="5" width="40" height="40">
+							<element kind="image" uuid="2b11f224-6645-4a48-b833-6fd5ce669370" x="7" y="5" width="26" height="27">
+								<expression><![CDATA[$F{statistics[2].iconUrl}]]></expression>
+								<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							</element>
+						</element>
+					</element>
+					<element kind="frame" uuid="26f488e7-0a54-415c-a9f6-3da85fe34edf" x="335" y="6" width="118" height="51">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<element kind="frame" uuid="c2139a92-f56f-458f-8ced-1d2161d78616" x="40" y="0" width="75" height="51">
+							<element kind="textField" uuid="76a27fe5-e349-47ca-a75b-27a37de84f68" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{statistics[3].count}]]></expression>
+							</element>
+							<element kind="textField" uuid="a17fedfe-1c00-46e6-90f7-7f260137f73f" x="3" y="21" width="69" height="24">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{statistics[3].label_es} : $F{statistics[3].label_en}]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="ecc5f3d1-0c98-4b9d-bc3b-6d23071847fd" x="0" y="5" width="40" height="40">
+							<element kind="image" uuid="f44be371-2b0a-4531-ba00-f390aa9e28d1" x="7" y="5" width="26" height="27">
+								<expression><![CDATA[$F{statistics[3].iconUrl}]]></expression>
+								<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							</element>
+						</element>
+					</element>
+					<element kind="ellipse" uuid="edd850b2-840a-4b45-8536-e8781c16731a" x="452" y="4" width="1" height="50" forecolor="#DEDEDE">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</element>
+					<element kind="frame" uuid="d638ab70-8dee-4a3b-803d-eee3fe0de347" x="506" y="15" width="41" height="27">
+						<element kind="rectangle" uuid="4c0a6a9b-b026-4d96-b486-3a462ebbb05e" x="0" y="0" width="41" height="27" forecolor="#A81426" backcolor="#A81426" radius="5">
+							<printWhenExpression><![CDATA[$F{application.risk}.intValue() == 100]]></printWhenExpression>
+						</element>
+						<element kind="rectangle" uuid="70141d2e-7a8b-448a-8a75-4ce43b527e93" x="0" y="0" width="41" height="27" forecolor="#E80A3A" backcolor="#E80A3A" radius="5">
+							<printWhenExpression><![CDATA[$F{application.risk}.intValue() == 75]]></printWhenExpression>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						</element>
+						<element kind="rectangle" uuid="cb518b65-beba-4497-9e45-b392c8230730" x="0" y="0" width="41" height="27" forecolor="#F05F05" backcolor="#F05F05" radius="5">
+							<printWhenExpression><![CDATA[$F{application.risk}.intValue() == 50]]></printWhenExpression>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						</element>
+						<element kind="rectangle" uuid="d5203fc7-80b7-4f5f-a63f-b35837682fd1" x="0" y="0" width="41" height="27" forecolor="#FBC02D" backcolor="#FBC02D" radius="5">
+							<printWhenExpression><![CDATA[($F{application.risk}.intValue() == 0 || $F{application.risk}.intValue() == 25)]]></printWhenExpression>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						</element>
+						<element kind="textField" uuid="3a7b342c-a40a-4bbc-bbd0-a7f4f254b51d" x="0" y="0" width="41" height="27" forecolor="#FFFFFF" hTextAlign="Center" vTextAlign="Middle">
+							<expression><![CDATA[$F{reportSections.language}.equals("es")
+? (
+    $F{application.risk} == 0  || $F{application.risk} == 25 ? "Bajo" :
+    $F{application.risk} == 50 ? "Medio" :
+    $F{application.risk} == 75 ? "Alto" :
+    $F{application.risk} == 100 ? "Crítico" : "Desconocido"
+  )
+: (
+    $F{application.risk} == 0  || $F{application.risk} == 25 ? "Low" :
+    $F{application.risk} == 50 ? "Medium" :
+    $F{application.risk} == 75 ? "High" :
+    $F{application.risk} == 100 ? "Critical" : "Unknown"
+  )]]></expression>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</element>
+					</element>
+					<element kind="textField" uuid="db90e863-3c17-4183-83ab-0ab58716d6f4" x="458" y="15" width="55" height="27" vTextAlign="Middle">
+						<expression><![CDATA[$F{reportSections.language}.equals("es") 
+    ? "Nivel de\nRiesgo"
+    : "Level\nOf Risk"]]></expression>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</element>
+				</element>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="50"/>
+		</groupFooter>
+	</group>
+	<group name="G_Statistics" startNewPage="true">
+		<expression><![CDATA[new Integer(3)]]></expression>
+		<groupHeader>
+			<band height="709">
+				<printWhenExpression><![CDATA[$F{reportSections.showStatistics}]]></printWhenExpression>
+				<element kind="frame" uuid="9d948688-4109-42db-93c8-a1327d4fb0a4" x="1" y="292" width="554" height="90">
+					<element kind="frame" uuid="729d364b-19e6-47c7-9685-9ab62a11dd4c" x="0" y="29" width="554" height="55">
+						<element kind="rectangle" uuid="ddbe0277-baa2-40b1-99bb-c19b5cc87119" x="0" y="-26" width="554" height="84" forecolor="#D8D8D8" backcolor="#FFFFFF" radius="5">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</element>
+						<element kind="frame" uuid="ec505f67-675a-4f08-9eb2-7c0696087145" x="4" y="8" width="118" height="51">
+							<element kind="frame" uuid="d6bc4e7e-84ab-455b-83ac-2526a22741b5" x="40" y="0" width="65" height="51">
+								<element kind="textField" uuid="bf49eea9-5c41-46e0-8235-5f8358702b99" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+									<expression><![CDATA[$F{accountRisks[0].count}]]></expression>
+								</element>
+								<element kind="textField" uuid="a59f2f8d-c65f-44f1-9bcd-ad4b70358887" x="3" y="21" width="54" height="24">
+									<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{accountRisks[0].label_es} : $F{accountRisks[0].label_en}]]></expression>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								</element>
+							</element>
+							<element kind="frame" uuid="824a2a0b-217f-4aff-8ce1-50a1548963f5" positionType="Float" x="0" y="5" width="40" height="40">
+								<element kind="rectangle" uuid="2cd3f124-6b56-4fcb-890e-beab635d10a3" x="5" y="0" width="32" height="33" forecolor="#A81426" backcolor="#A81426" radius="5"/>
+								<element kind="textField" uuid="d5a58e36-9a59-4c1d-9b19-d79fc4ea18e9" positionType="Float" x="5" y="8" width="32" height="26" forecolor="#FFFFFF" fontSize="12.0" hTextAlign="Center">
+									<expression><![CDATA[$F{accountRisks[0].percentage} +  "%"]]></expression>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								</element>
+							</element>
+						</element>
+						<element kind="frame" uuid="f4779a7a-ba3f-41e3-8347-dffe1bc238ab" x="137" y="8" width="118" height="51">
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<element kind="frame" uuid="159e8f32-16bd-42ab-a5e8-919791360619" x="0" y="5" width="40" height="40">
+								<element kind="rectangle" uuid="fb092d92-f520-4a5e-bb15-fff1d9bfb898" x="5" y="0" width="32" height="33" forecolor="#E80A3A" backcolor="#E80A3A" radius="5"/>
+								<element kind="textField" uuid="1b923553-8d6d-4abe-a8ba-4cd7c824cc02" positionType="Float" x="5" y="8" width="32" height="26" forecolor="#FFFFFF" fontSize="12.0" hTextAlign="Center">
+									<expression><![CDATA[$F{accountRisks[1].percentage} + "%"]]></expression>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								</element>
+							</element>
+							<element kind="frame" uuid="b782df6f-f962-4c5c-b7bc-b24c16e60125" x="40" y="0" width="65" height="51">
+								<element kind="textField" uuid="6f70452c-f4f1-457e-b640-576a1d72c820" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+									<expression><![CDATA[$F{accountRisks[1].count}]]></expression>
+								</element>
+								<element kind="textField" uuid="f1bc5890-f39b-44d1-89d6-e4776f6ed241" x="3" y="21" width="54" height="24">
+									<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{accountRisks[1].label_es} : $F{accountRisks[1].label_en}]]></expression>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								</element>
+							</element>
+						</element>
+						<element kind="frame" uuid="cb39cbaf-2faf-4c22-9f82-3d90171a3751" x="285" y="8" width="118" height="51">
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<element kind="frame" uuid="cb75e28a-1c00-4cfd-8e31-ad24e2fe479c" x="40" y="0" width="65" height="51">
+								<element kind="textField" uuid="baf737ff-8625-4257-adea-5f7b955b3384" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+									<expression><![CDATA[$F{accountRisks[2].count}]]></expression>
+								</element>
+								<element kind="textField" uuid="537ac661-ff2e-431b-8546-dadd32b1f930" x="3" y="21" width="54" height="24">
+									<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{accountRisks[2].label_es} : $F{accountRisks[2].label_en}]]></expression>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								</element>
+							</element>
+							<element kind="frame" uuid="48f75e1b-e566-4091-84cf-c199979e353c" x="0" y="5" width="40" height="40">
+								<element kind="rectangle" uuid="09682f31-c890-4251-946f-edb289fc2e5e" x="5" y="0" width="32" height="33" forecolor="#F05F05" backcolor="#F05F05" radius="5"/>
+								<element kind="textField" uuid="380e161e-9d2a-4e3f-8c2c-c15728468331" x="5" y="8" width="32" height="26" forecolor="#FFFFFF" fontSize="12.0">
+									<expression><![CDATA[$F{accountRisks[2].percentage}+ "%"]]></expression>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								</element>
+							</element>
+						</element>
+						<element kind="frame" uuid="9aa542df-3578-4c78-b5a4-7a870aa7fb63" x="427" y="8" width="118" height="51">
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<element kind="frame" uuid="6b360ea5-3fa0-40d2-a4ee-3c286e723891" x="40" y="0" width="65" height="51">
+								<element kind="textField" uuid="a1720446-3060-41c0-bfe3-44fc084a4530" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+									<expression><![CDATA[$F{accountRisks[3].count}]]></expression>
+								</element>
+								<element kind="textField" uuid="a33213c7-f757-443a-99f1-0fd279179a0d" x="3" y="21" width="54" height="24">
+									<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{accountRisks[3].label_es} : $F{accountRisks[3].label_en}]]></expression>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								</element>
+							</element>
+							<element kind="frame" uuid="2df9465f-68d5-4ac0-9fe2-03a6aa0e62b5" x="0" y="5" width="40" height="40">
+								<element kind="rectangle" uuid="49258f73-4e09-474d-9807-c697362f346c" x="5" y="0" width="32" height="33" forecolor="#FBC02D" backcolor="#FBC02D" radius="5"/>
+								<element kind="textField" uuid="d6dd64ab-28f1-4c6b-b465-f787ff0d37b7" positionType="Float" x="5" y="8" width="32" height="26" forecolor="#FFFFFF" fontSize="12.0" hTextAlign="Center">
+									<expression><![CDATA[$F{accountRisks[3].percentage} + "%"]]></expression>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								</element>
+							</element>
+						</element>
+					</element>
+					<element kind="textField" uuid="1fe61b92-b68c-45d4-90aa-e4c044da8788" x="5" y="6" width="149" height="20" fontSize="16.0">
+						<expression><![CDATA[$F{reportSections.language}.equals("es") ? "Riesgo de cuentas" : "Account risk"]]></expression>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</element>
+				</element>
+				<element kind="frame" uuid="45771c02-5817-419a-adb0-16ae30b1c7bc" x="1" y="403" width="555" height="248">
+					<element kind="rectangle" uuid="d37c72fd-3ef7-4862-9b84-111c8ecc6772" x="0" y="10" width="393" height="231" forecolor="#D8D8D8" radius="5">
+						<pen lineColor="#D8D8D8"/>
+					</element>
+					<element kind="textField" uuid="e65a1dd2-fab0-4f6a-9ee0-638099160980" x="8" y="15" width="100" height="28" fontSize="16.0">
+						<expression><![CDATA[$F{reportSections.language}.equals("es") ? "Privilegios" : "Entitlements"]]></expression>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</element>
+					<element kind="frame" uuid="05235c36-129f-4d2c-a883-8174ba2c8381" x="9" y="53" width="113" height="51">
+						<element kind="frame" uuid="39d7a478-afa1-4d24-82fb-498af4181b85" x="0" y="5" width="35" height="35">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<element kind="ellipse" uuid="8e3461de-6e73-46ed-9752-3c8ca4d2b45d" x="0" y="5" width="35" height="35" forecolor="rgba(168, 20, 38, 0.0)" backcolor="#C9EEE2">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							</element>
+							<element kind="textField" uuid="7b0e5df9-a8cb-4454-8242-2cc02eb14b77" positionType="Float" x="0" y="15" width="35" height="35" forecolor="#139C70" backcolor="#030303" fontSize="11.0" bold="true" hTextAlign="Center">
+								<expression><![CDATA[$F{entitlementsDonut[0].percentage}+ "%"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="65c016ff-6e0e-4939-8dce-f2f471ef368d" x="40" y="0" width="65" height="51">
+							<element kind="textField" uuid="d1ccfc30-275a-4f5d-a715-b5b1832837fe" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{entitlementsDonut[0].count}]]></expression>
+							</element>
+							<element kind="textField" uuid="f9a373a4-d5db-49d1-9773-386b5113c680" x="3" y="21" width="54" height="24">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{entitlementsDonut[0].label_es}  : $F{entitlementsDonut[0].label_en}]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+					</element>
+					<element kind="frame" uuid="9371e3bb-b3b3-4ae4-8415-e94caafeea9c" x="9" y="115" width="113" height="51">
+						<element kind="frame" uuid="f3e9ac0f-51f3-49c3-85cc-8a12f4794293" x="0" y="5" width="35" height="35">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<element kind="ellipse" uuid="45f43210-dd8d-4647-8361-65446f1d5bf1" x="0" y="5" width="35" height="35" forecolor="rgba(168, 20, 38, 0.0)" backcolor="rgba(255, 218, 213, 0.78431374)">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							</element>
+							<element kind="textField" uuid="77587267-73ec-4e08-957c-f982604e09c3" positionType="Float" x="0" y="15" width="35" height="35" forecolor="#EF7300" backcolor="#030303" fontSize="11.0" bold="true" hTextAlign="Center">
+								<expression><![CDATA[$F{entitlementsDonut[1].percentage} + "%"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="be7d50b1-1416-4226-b349-ee7eeec70318" x="40" y="0" width="65" height="51">
+							<element kind="textField" uuid="a71c970b-f00b-4988-93df-9513fc625b3a" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{entitlementsDonut[1].count}]]></expression>
+							</element>
+							<element kind="textField" uuid="a6b711cc-5ddf-4a4a-b9f7-132aa0416bd1" x="3" y="21" width="54" height="24">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{entitlementsDonut[1].label_es}  : $F{entitlementsDonut[1].label_en}]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+					</element>
+					<element kind="frame" uuid="43792bbe-7526-4323-9dee-027d22516a17" x="10" y="175" width="111" height="51">
+						<element kind="frame" uuid="8083462c-b056-44f7-8bc1-a52189c68aeb" x="0" y="5" width="35" height="35">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<element kind="ellipse" uuid="e667f8cb-80a5-48d8-91bc-33685695f35a" positionType="Float" x="0" y="5" width="35" height="35" forecolor="rgba(168, 20, 38, 0.0)" backcolor="#F4CAD3">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							</element>
+							<element kind="textField" uuid="16c9d8cd-20bc-45a4-bf21-670d2b29dd5f" positionType="Float" x="0" y="15" width="35" height="35" forecolor="#C73345" backcolor="#030303" fontSize="11.0" bold="true" hTextAlign="Center">
+								<expression><![CDATA[$F{entitlementsDonut[2].percentage}+ "%"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="f63fa44c-d80d-47ac-8cd2-205dc2a2d6b7" x="40" y="0" width="65" height="51">
+							<element kind="textField" uuid="03a6eb60-7d09-469a-a6c3-ef3a7d3229e6" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{entitlementsDonut[2].count}]]></expression>
+							</element>
+							<element kind="textField" uuid="4a399f7d-9412-4903-9ce1-6b721f8648a7" x="3" y="21" width="54" height="24">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{entitlementsDonut[2].label_es}  : $F{entitlementsDonut[2].label_en}]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+					</element>
+					<element kind="frame" uuid="6a059c80-50ef-4199-b8fe-ae75cd84916b" x="282" y="38" width="106" height="202">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<element kind="frame" uuid="8f74f3d4-fad5-4da3-b1f1-d4bfdb116d60" x="11" y="145" width="95" height="51">
+							<element kind="frame" uuid="6cfb601e-d73d-4628-b8c9-cf7409760411" x="26" y="3" width="65" height="46">
+								<element kind="textField" uuid="ae39e4c1-f0af-4c9e-8d2d-884c155feec4" x="20" y="5" width="30" height="15" fontSize="12.0" bold="true">
+									<expression><![CDATA[$F{entitlementsBars[0].count}]]></expression>
+								</element>
+								<element kind="textField" uuid="fe555b8a-c310-42bf-8446-b11d8099d982" x="3" y="21" width="62" height="24">
+									<expression><![CDATA[$F{reportSections.language}.equals("es")  ? $F{entitlementsBars[0].label_es} : $F{entitlementsBars[0].label_en}]]></expression>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								</element>
+							</element>
+							<element kind="frame" uuid="4fbef992-a516-445a-9f4d-8afcb184b228" x="26" y="7" width="18" height="16">
+								<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+								<element kind="ellipse" uuid="8b13fbc8-08ed-49eb-8e9c-3c1eec459128" x="4" y="3" width="10" height="10" forecolor="rgba(168, 20, 38, 0.0)" backcolor="#2841FF">
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								</element>
+							</element>
+						</element>
+						<element kind="frame" uuid="f12be1ac-3bc9-4da8-bc89-f5016e632c21" x="44" y="22" width="47" height="129">
+							<element kind="chart" chartType="stackedBar" uuid="eaf71359-96f8-4bc6-822c-fc348296e69b" mode="Transparent" x="8" y="0" width="30" height="128" showLegend="false" evaluationTime="Report" subtitleColor="#2BBAB8" removeLineWhenBlank="true" style="sBadge">
+								<dataset kind="category">
+									<series>
+										<seriesExpression><![CDATA["DONE"]]></seriesExpression>
+										<categoryExpression><![CDATA["progress"]]></categoryExpression>
+										<valueExpression><![CDATA[$F{entitlementsBars[0].percentage}]]></valueExpression>
+									</series>
+									<series>
+										<seriesExpression><![CDATA["TODO"]]></seriesExpression>
+										<categoryExpression><![CDATA["progress"]]></categoryExpression>
+										<valueExpression><![CDATA[100-$F{entitlementsBars[0].percentage}]]></valueExpression>
+									</series>
+								</dataset>
+								<plot categoryAxisLabelColor="#FFFFFF" categoryAxisTickLabelColor="#FFFFFF" categoryAxisLineColor="#030303" valueAxisLabelColor="#FFFFFF" valueAxisTickLabelColor="#FFFFFF" valueAxisLineColor="#FFFFFF" showTickMarks="false" showTickLabels="false" showLabels="false">
+									<itemLabel/>
+									<seriesColor order="0" color="#2841FF"/>
+									<seriesColor order="1" color="#D8D8D8"/>
+								</plot>
+								<box style="sBadge">
+									<pen lineWidth="1.0" lineStyle="Dashed"/>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+							</element>
+						</element>
+						<element kind="line" uuid="6d92a38c-0b4b-4963-aaba-8004ac827096" x="10" y="0" width="1" height="192" forecolor="#D8D8D8"/>
+					</element>
+					<element kind="chart" chartType="pie" uuid="84bb5e88-e7e0-4484-bb5a-dbef2e868710" x="97" y="38" width="200" height="200" showLegend="false" evaluationTime="Report">
+						<dataset kind="pie" maxCount="3">
+							<datasetRun uuid="7661f4dc-6c3b-4cb2-96a9-1c73a65d53f3" subDataset="DS_EntitlementsDonut">
+								<dataSourceExpression><![CDATA[    new net.sf.jasperreports.json.data.JsonDataSource(
+        new java.io.ByteArrayInputStream($P{JSON_DATA}.getBytes("UTF-8")),
+        "entitlementsDonut"
+    )]]></dataSourceExpression>
+							</datasetRun>
+							<series>
+								<keyExpression><![CDATA[$F{label_es}]]></keyExpression>
+								<valueExpression><![CDATA[$F{count}]]></valueExpression>
+								<labelExpression><![CDATA[$F{label_es}]]></labelExpression>
+							</series>
+						</dataset>
+						<plot showLabels="false">
+							<itemLabel/>
+							<seriesColor order="0" color="#139C70"/>
+							<seriesColor order="1" color="#EF7300"/>
+							<seriesColor order="2" color="#C73345"/>
+						</plot>
+					</element>
+					<element kind="frame" uuid="c20049a0-e0b3-4679-a2be-ac6496d80e75" x="412" y="10" width="142" height="231">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<element kind="rectangle" uuid="c3e8ffa4-d663-4e02-9af7-4e16dac3120e" x="-11" y="0" width="153" height="231" forecolor="#FFFFFF" radius="5">
+							<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<pen lineColor="#D8D8D8"/>
+						</element>
+						<element kind="textField" uuid="7def822f-cddf-4446-bd9e-4b0fa9b6c4ff" x="-4" y="3" width="130" height="20" backcolor="#030303" fontSize="15.0">
+							<expression><![CDATA[$F{reportSections.language}.equals("es") ? "Asignaciones" : "Grants"]]></expression>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</element>
+						<element kind="frame" uuid="0258add1-3dbc-47dc-97b3-fc6e7ec85e86" x="-6" y="28" width="66" height="202">
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<element kind="frame" uuid="c85bf1b5-35d0-4547-a87d-85693fe962a8" x="2" y="145" width="62" height="51">
+								<element kind="frame" uuid="2bb0472b-0f61-4fe3-b2e4-307179c8e1c1" x="0" y="3" width="62" height="46">
+									<element kind="textField" uuid="90db3da1-6c88-41f5-a8fa-185b55ab3afa" x="26" y="5" width="28" height="15" fontSize="12.0" bold="true">
+										<expression><![CDATA[$F{grantsBars[1].count}]]></expression>
+									</element>
+									<element kind="textField" uuid="da4f002b-2e42-426d-bf45-da45dcaf2aed" x="11" y="21" width="46" height="24">
+										<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{grantsBars[1].label_es} : $F{grantsBars[1].label_en}]]></expression>
+										<property name="com.jaspersoft.studio.unit.x" value="px"/>
+										<property name="com.jaspersoft.studio.unit.y" value="px"/>
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<property name="com.jaspersoft.studio.unit.height" value="px"/>
+									</element>
+								</element>
+								<element kind="frame" uuid="ad81530e-3ebb-409e-8d83-69297322b898" x="4" y="7" width="18" height="16">
+									<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+									<element kind="ellipse" uuid="737cfa96-2064-4d7f-8cd5-820447a7ec35" x="4" y="3" width="10" height="10" forecolor="rgba(168, 20, 38, 0.0)" backcolor="#2D97FB">
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<property name="com.jaspersoft.studio.unit.height" value="px"/>
+									</element>
+								</element>
+							</element>
+							<element kind="frame" uuid="a9c1008f-15e3-4f99-a392-0861dd228c15" x="8" y="22" width="47" height="129">
+								<element kind="chart" chartType="stackedBar" uuid="95063b5f-0ae9-46a2-a25d-92f7dce2b2a6" mode="Transparent" x="8" y="0" width="30" height="128" showLegend="false" evaluationTime="Report" subtitleColor="#2BBAB8" removeLineWhenBlank="true" style="sBadge">
+									<dataset kind="category">
+										<series>
+											<seriesExpression><![CDATA["DONE"]]></seriesExpression>
+											<categoryExpression><![CDATA["progress"]]></categoryExpression>
+											<valueExpression><![CDATA[$F{grantsBars[1].percentage}]]></valueExpression>
+										</series>
+										<series>
+											<seriesExpression><![CDATA["TODO"]]></seriesExpression>
+											<categoryExpression><![CDATA["progress"]]></categoryExpression>
+											<valueExpression><![CDATA[100-$F{grantsBars[1].percentage}]]></valueExpression>
+										</series>
+									</dataset>
+									<plot categoryAxisLabelColor="#FFFFFF" categoryAxisTickLabelColor="#FFFFFF" categoryAxisLineColor="#030303" valueAxisLabelColor="#FFFFFF" valueAxisTickLabelColor="#FFFFFF" valueAxisLineColor="#FFFFFF" showTickMarks="false" showTickLabels="false" showLabels="false">
+										<itemLabel/>
+										<seriesColor order="0" color="#2D97FB"/>
+										<seriesColor order="1" color="#D8D8D8"/>
+									</plot>
+									<box style="sBadge">
+										<pen lineWidth="1.0" lineStyle="Dashed"/>
+										<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</element>
+							</element>
+						</element>
+						<element kind="frame" uuid="ba033189-adf0-4c47-9b1e-adf22e3cd7e7" x="72" y="28" width="66" height="202">
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<element kind="frame" uuid="f53e25b6-8f73-4d58-842f-9104cf75320e" x="2" y="145" width="62" height="51">
+								<element kind="frame" uuid="3f81aaf1-5b88-4fe7-942f-5e0ede2a3c28" x="0" y="3" width="62" height="46">
+									<element kind="textField" uuid="ac6efec9-d82b-45b0-9187-b706849e2477" x="28" y="5" width="28" height="15" fontSize="12.0" bold="true">
+										<expression><![CDATA[$F{grantsBars[0].count}]]></expression>
+									</element>
+									<element kind="textField" uuid="aac4ab45-0f9d-4e9f-a38d-89bb2ccc9860" x="3" y="21" width="52" height="24">
+										<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{grantsBars[0].label_es} : $F{grantsBars[0].label_en}]]></expression>
+										<property name="com.jaspersoft.studio.unit.x" value="px"/>
+										<property name="com.jaspersoft.studio.unit.y" value="px"/>
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<property name="com.jaspersoft.studio.unit.height" value="px"/>
+									</element>
+								</element>
+								<element kind="frame" uuid="bcd14a82-668c-4ea2-a5a4-28818537cf58" x="4" y="7" width="18" height="16">
+									<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+									<element kind="ellipse" uuid="7e610723-4e01-4711-a865-2a4883f250fa" x="4" y="3" width="10" height="10" forecolor="rgba(168, 20, 38, 0.0)" backcolor="#2841FF">
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<property name="com.jaspersoft.studio.unit.height" value="px"/>
+									</element>
+								</element>
+							</element>
+							<element kind="frame" uuid="90fcb46b-1215-47e9-8cc0-b5242a8ab1d7" x="8" y="22" width="47" height="129">
+								<element kind="chart" chartType="stackedBar" uuid="3d9596d7-88d3-479b-8456-f7fd775e385a" mode="Transparent" x="8" y="0" width="30" height="128" showLegend="false" evaluationTime="Report" subtitleColor="#2BBAB8" removeLineWhenBlank="true" style="sBadge">
+									<dataset kind="category">
+										<series>
+											<seriesExpression><![CDATA["DONE"]]></seriesExpression>
+											<categoryExpression><![CDATA["progress"]]></categoryExpression>
+											<valueExpression><![CDATA[$F{grantsBars[0].percentage}]]></valueExpression>
+										</series>
+										<series>
+											<seriesExpression><![CDATA["TODO"]]></seriesExpression>
+											<categoryExpression><![CDATA["progress"]]></categoryExpression>
+											<valueExpression><![CDATA[100-$F{grantsBars[0].percentage}]]></valueExpression>
+										</series>
+									</dataset>
+									<plot categoryAxisLabelColor="#FFFFFF" categoryAxisTickLabelColor="#FFFFFF" categoryAxisLineColor="#030303" valueAxisLabelColor="#FFFFFF" valueAxisTickLabelColor="#FFFFFF" valueAxisLineColor="#FFFFFF" showTickMarks="false" showTickLabels="false" showLabels="false">
+										<itemLabel/>
+										<seriesColor order="0" color="#2841FF"/>
+										<seriesColor order="1" color="#D8D8D8"/>
+									</plot>
+									<box style="sBadge">
+										<pen lineWidth="1.0" lineStyle="Dashed"/>
+										<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</element>
+							</element>
+						</element>
+					</element>
+				</element>
+				<element kind="frame" uuid="e4a2f180-c78a-4b22-8822-9c649f3538f8" x="0" y="6" width="556" height="248">
+					<element kind="rectangle" uuid="c868e8e3-34d2-41f2-bec9-74ca76453b92" x="0" y="10" width="555" height="231" forecolor="#D8D8D8" radius="5">
+						<pen lineColor="#D8D8D8"/>
+					</element>
+					<element kind="textField" uuid="9442c0f7-e19a-4de6-9fbe-541e44ffcd59" x="8" y="15" width="100" height="28" fontSize="16.0">
+						<expression><![CDATA[$F{reportSections.language}.equals("es") ? "Cuentas" : "Account"]]></expression>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</element>
+					<element kind="frame" uuid="7167d283-a00c-4923-b680-74cd4a7ecf51" x="9" y="53" width="113" height="51">
+						<element kind="frame" uuid="160e412f-af20-4fab-84e2-386eb62951ab" x="0" y="5" width="35" height="35">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<element kind="ellipse" uuid="7bbf454c-8799-45b7-a348-7cae5cc8b112" x="0" y="5" width="35" height="35" forecolor="rgba(168, 20, 38, 0.0)" backcolor="#C9EEE2">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							</element>
+							<element kind="textField" uuid="2f5e3de4-f38e-4684-85da-89161280bd11" positionType="Float" x="0" y="15" width="35" height="35" forecolor="#139C70" backcolor="#030303" fontSize="11.0" bold="true" hTextAlign="Center">
+								<expression><![CDATA[$F{accountsDonut[0].percentage}+ "%"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="0b2e28cc-bf23-43ac-acc6-b031027c2654" x="40" y="8" width="65" height="51">
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<element kind="textField" uuid="7faf54ec-510f-47a6-b0b6-ee417058a1a7" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{accountsDonut[0].count}]]></expression>
+							</element>
+							<element kind="textField" uuid="9c41bf4b-fd0c-49f7-b5ed-a1b06a6fd1c2" x="3" y="21" width="54" height="24">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{accountsDonut[0].label_es} : $F{accountsDonut[0].label_en}]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+					</element>
+					<element kind="frame" uuid="74cd236a-8f0d-41a8-b565-b118660bd5e5" x="9" y="115" width="113" height="51">
+						<element kind="frame" uuid="881a816a-587e-4c43-88cc-be3f407fb8f5" x="0" y="5" width="35" height="35">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<element kind="ellipse" uuid="0d519bb0-1120-4214-97dc-3ecea98707cf" x="0" y="5" width="35" height="35" forecolor="rgba(168, 20, 38, 0.0)" backcolor="rgba(255, 218, 213, 0.78431374)">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							</element>
+							<element kind="textField" uuid="7a0e58ad-d0ed-4fab-822f-7ad5f214a734" positionType="Float" x="0" y="15" width="35" height="35" forecolor="#EF7300" backcolor="#030303" fontSize="11.0" bold="true" hTextAlign="Center">
+								<expression><![CDATA[$F{accountsDonut[1].percentage} + "%"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="9756c213-31ab-4e9b-9845-b05cdfb4f54b" x="40" y="8" width="65" height="51">
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<element kind="textField" uuid="3cf9de3b-7f99-48b6-863f-547d74af4f3e" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{accountsDonut[1].count}]]></expression>
+							</element>
+							<element kind="textField" uuid="b2198c6a-9ab1-4392-8845-46b77d311732" x="3" y="21" width="61" height="24">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{accountsDonut[1].label_es} : $F{accountsDonut[1].label_en}]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+					</element>
+					<element kind="frame" uuid="fac6def5-5fff-485d-b5ff-99ec61327168" x="10" y="175" width="111" height="51">
+						<element kind="frame" uuid="9b342ff7-18e0-4f36-aedc-6ffca4f93daa" x="0" y="5" width="35" height="35">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<element kind="ellipse" uuid="684f6452-7e32-48c1-a20e-821dc9794e1a" positionType="Float" x="0" y="5" width="35" height="35" forecolor="rgba(168, 20, 38, 0.0)" backcolor="#F4CAD3">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							</element>
+							<element kind="textField" uuid="123e4d89-dd80-4a21-8c6d-1a34c643a21f" positionType="Float" x="0" y="15" width="35" height="35" forecolor="#C73345" backcolor="#030303" fontSize="11.0" bold="true" hTextAlign="Center">
+								<expression><![CDATA[$F{accountsDonut[2].percentage}+ "%"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="29371318-2b1d-4d32-877a-2f20d0f480fd" x="40" y="8" width="65" height="51">
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<element kind="textField" uuid="766fb852-74f3-4103-9965-f8573e364906" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{accountsDonut[2].count}]]></expression>
+							</element>
+							<element kind="textField" uuid="c687f659-08f6-4d90-8406-a85559b2c66d" x="3" y="21" width="61" height="24">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{accountsDonut[2].label_es} : $F{accountsDonut[2].label_en}]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+					</element>
+					<element kind="frame" uuid="ace27274-c95f-48a2-ab3e-86dc1422517a" x="282" y="52" width="271" height="51">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<element kind="frame" uuid="21a914d8-2e5a-43e3-9e11-7407f0bf7d48" x="40" y="0" width="65" height="51">
+							<element kind="textField" uuid="e82e7d48-06e8-4dd5-8936-3a4e8ede7c95" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{accountsBars[0].count}]]></expression>
+							</element>
+							<element kind="textField" uuid="47b89bf3-539f-4019-90f7-31d69020529d" x="3" y="21" width="62" height="24">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{accountsBars[0].label_es} : $F{accountsBars[0].label_en}]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="bc3b8b67-1efe-43bb-a222-61ce58882f82" x="0" y="5" width="40" height="40">
+							<element kind="ellipse" uuid="c5c2ac3a-b851-4493-87ae-78cde7935883" x="14" y="14" width="10" height="10" forecolor="rgba(168, 20, 38, 0.0)" backcolor="#2841FF">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="eebcf772-e834-41ad-9488-46aa24abf301" x="105" y="8" width="163" height="39">
+							<element kind="chart" chartType="stackedBar" uuid="506d4552-5b68-4af3-942b-5b39df158172" mode="Transparent" x="0" y="11" width="120" height="15" showLegend="false" evaluationTime="Report" subtitleColor="#2BBAB8" removeLineWhenBlank="true" style="sBadge">
+								<dataset kind="category">
+									<series>
+										<seriesExpression><![CDATA["DONE"]]></seriesExpression>
+										<categoryExpression><![CDATA["progress"]]></categoryExpression>
+										<valueExpression><![CDATA[$F{accountsBars[0].percentage}]]></valueExpression>
+									</series>
+									<series>
+										<seriesExpression><![CDATA["TODO"]]></seriesExpression>
+										<categoryExpression><![CDATA["progress"]]></categoryExpression>
+										<valueExpression><![CDATA[100-$F{accountsBars[0].percentage}]]></valueExpression>
+									</series>
+								</dataset>
+								<plot orientation="Horizontal" categoryAxisLabelColor="#FFFFFF" categoryAxisTickLabelColor="#FFFFFF" categoryAxisLineColor="#030303" valueAxisLabelColor="#FFFFFF" valueAxisTickLabelColor="#FFFFFF" valueAxisLineColor="#FFFFFF" showTickMarks="false" showTickLabels="false" showLabels="false">
+									<itemLabel/>
+									<seriesColor order="0" color="#2841FF"/>
+									<seriesColor order="1" color="#D8D8D8"/>
+								</plot>
+								<box style="sBadge">
+									<pen lineWidth="1.0" lineStyle="Dashed"/>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+							</element>
+							<element kind="textField" uuid="08a5a211-0503-4957-8b18-622d1134d8c9" x="118" y="11" width="42" height="28" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{accountsBars[0].percentage} + "%"]]></expression>
+							</element>
+						</element>
+					</element>
+					<element kind="frame" uuid="e161f9b8-2f98-4c49-a578-e962a34fb29b" x="282" y="111" width="270" height="51">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<element kind="frame" uuid="863143f6-4329-4096-833d-b0f4ae09dad0" x="40" y="0" width="65" height="51">
+							<element kind="textField" uuid="1d281416-d4cf-46d3-878d-3e8eb66ca925" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{accountsBars[1].count}]]></expression>
+							</element>
+							<element kind="textField" uuid="67be02b0-8f41-4109-a3ba-a68f3ceef240" x="3" y="21" width="62" height="24">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{accountsBars[1].label_es} : $F{accountsBars[1].label_en}]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="3b92faee-a057-4685-826a-e8658e51a407" x="0" y="5" width="40" height="40">
+							<element kind="ellipse" uuid="337a8bc4-13c8-4245-8262-14ad471d5652" x="14" y="14" width="10" height="10" forecolor="rgba(168, 20, 38, 0.0)" backcolor="#2D97FB">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="8f2a1f94-4ac5-4b9d-8b2d-1509df2c187c" x="105" y="8" width="163" height="39">
+							<element kind="chart" chartType="stackedBar" uuid="38c867d0-0550-4ffc-8f78-6bad2206bd9e" mode="Transparent" x="0" y="11" width="120" height="15" showLegend="false" evaluationTime="Report" subtitleColor="#2BBAB8" removeLineWhenBlank="true" style="sBadge">
+								<dataset kind="category">
+									<series>
+										<seriesExpression><![CDATA["DONE"]]></seriesExpression>
+										<categoryExpression><![CDATA["progress"]]></categoryExpression>
+										<valueExpression><![CDATA[$F{accountsBars[1].percentage}]]></valueExpression>
+									</series>
+									<series>
+										<seriesExpression><![CDATA["TODO"]]></seriesExpression>
+										<categoryExpression><![CDATA["progress"]]></categoryExpression>
+										<valueExpression><![CDATA[100-$F{accountsBars[1].percentage}]]></valueExpression>
+									</series>
+								</dataset>
+								<plot orientation="Horizontal" categoryAxisLabelColor="#FFFFFF" categoryAxisTickLabelColor="#FFFFFF" categoryAxisLineColor="#030303" valueAxisLabelColor="#FFFFFF" valueAxisTickLabelColor="#FFFFFF" valueAxisLineColor="#FFFFFF" showTickMarks="false" showTickLabels="false" showLabels="false">
+									<itemLabel/>
+									<seriesColor order="0" color="#2D97FB"/>
+									<seriesColor order="1" color="#D8D8D8"/>
+								</plot>
+								<box style="sBadge">
+									<pen lineWidth="1.0" lineStyle="Dashed"/>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+							</element>
+							<element kind="textField" uuid="5af2afb0-9c79-4b79-80a1-34596cbfc2e1" x="118" y="11" width="42" height="28" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{accountsBars[1].percentage} + "%"]]></expression>
+							</element>
+						</element>
+					</element>
+					<element kind="frame" uuid="31997146-4226-47b6-8afa-54ef505a9032" x="282" y="171" width="270" height="51">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<element kind="frame" uuid="55daa122-d66d-4b70-a8e1-9409a6888407" x="40" y="0" width="65" height="51">
+							<element kind="textField" uuid="a39a6727-39f1-4bf3-9177-d48bf03ea5d4" x="6" y="5" width="46" height="15" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{accountsBars[2].count}]]></expression>
+							</element>
+							<element kind="textField" uuid="30ed5671-b34c-4745-971b-79da81b81027" x="3" y="21" width="62" height="24">
+								<expression><![CDATA[$F{reportSections.language}.equals("es") ? $F{accountsBars[2].label_es} : $F{accountsBars[2].label_en}]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="55be8ac9-9042-4a9c-9d99-3f2a72bd46f5" x="0" y="5" width="40" height="40">
+							<element kind="ellipse" uuid="72ec3f87-f84a-4340-b0b9-5cf9312f50f7" x="14" y="14" width="10" height="10" forecolor="rgba(168, 20, 38, 0.0)" backcolor="#4B009A">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="8e3fa9f2-6061-4359-ae37-a39f0c2c982e" x="105" y="8" width="163" height="39">
+							<element kind="chart" chartType="stackedBar" uuid="eb0fc069-6122-4fa8-b140-17f2eae68116" mode="Transparent" x="0" y="11" width="120" height="15" showLegend="false" evaluationTime="Report" subtitleColor="#2BBAB8" removeLineWhenBlank="true" style="sBadge">
+								<dataset kind="category">
+									<series>
+										<seriesExpression><![CDATA["DONE"]]></seriesExpression>
+										<categoryExpression><![CDATA["progress"]]></categoryExpression>
+										<valueExpression><![CDATA[$F{accountsBars[2].percentage}]]></valueExpression>
+									</series>
+									<series>
+										<seriesExpression><![CDATA["TODO"]]></seriesExpression>
+										<categoryExpression><![CDATA["progress"]]></categoryExpression>
+										<valueExpression><![CDATA[100-$F{accountsBars[2].percentage}]]></valueExpression>
+									</series>
+								</dataset>
+								<plot orientation="Horizontal" categoryAxisLabelColor="#FFFFFF" categoryAxisTickLabelColor="#FFFFFF" categoryAxisLineColor="#030303" valueAxisLabelColor="#FFFFFF" valueAxisTickLabelColor="#FFFFFF" valueAxisLineColor="#FFFFFF" showTickMarks="false" showTickLabels="false" showLabels="false">
+									<itemLabel/>
+									<seriesColor order="0" color="#4B009A"/>
+									<seriesColor order="1" color="#D8D8D8"/>
+								</plot>
+								<box style="sBadge">
+									<pen lineWidth="1.0" lineStyle="Dashed"/>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+							</element>
+							<element kind="textField" uuid="ac16029d-6c31-42bb-93a6-5c677e707918" x="118" y="11" width="42" height="28" fontSize="12.0" bold="true">
+								<expression><![CDATA[$F{accountsBars[2].percentage} +"%"]]></expression>
+							</element>
+						</element>
+					</element>
+					<element kind="chart" chartType="pie" uuid="68b892a4-9b42-4029-98e5-6367e81d1ccd" x="97" y="38" width="200" height="200" showLegend="false" evaluationTime="Report">
+						<dataset kind="pie" maxCount="3">
+							<datasetRun uuid="09713b0b-ea37-4952-a843-d91d7ea61eaf" subDataset="DS_AccountsDonut">
+								<dataSourceExpression><![CDATA[    new net.sf.jasperreports.json.data.JsonDataSource(
+        new java.io.ByteArrayInputStream($P{JSON_DATA}.getBytes("UTF-8")),
+        "accountsDonut"
+    )]]></dataSourceExpression>
+							</datasetRun>
+							<series>
+								<keyExpression><![CDATA[$F{label_es}]]></keyExpression>
+								<valueExpression><![CDATA[$F{count}]]></valueExpression>
+								<labelExpression><![CDATA[$F{label_es}]]></labelExpression>
+							</series>
+						</dataset>
+						<plot showLabels="false">
+							<itemLabel/>
+							<seriesColor order="0" color="#139C70"/>
+							<seriesColor order="1" color="#EF7300"/>
+							<seriesColor order="2" color="#C73345"/>
+						</plot>
+					</element>
+				</element>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="G_Anomalies" startNewPage="true">
+		<expression><![CDATA[new Integer(4)]]></expression>
+		<groupHeader>
+			<band height="150">
+				<printWhenExpression><![CDATA[$F{reportSections.showAnomalies}]]></printWhenExpression>
+				<element kind="frame" uuid="2c1110db-d97a-45c6-a806-5a63a31a7ba6" x="0" y="7" width="558" height="24">
+					<element kind="textField" uuid="74177347-c08f-42a3-a6c3-373960b78f10" x="0" y="0" width="110" height="24" forecolor="#FB7462" fontSize="18.0" bold="true">
+						<expression><![CDATA[$F{reportSections.language}.equals("es") ? "Anomalías" : "Anomalies"]]></expression>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</element>
+					<box>
+						<pen lineColor="#FB7462"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#FB7462"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+				</element>
+				<element kind="frame" uuid="bdf5be8b-2d6a-4984-bc50-8d1eae1b7bc3" positionType="Float" stretchType="ContainerHeight" x="1" y="37" width="555" height="73">
+					<element kind="component" uuid="699a7a8e-b5ed-4a48-89ca-971dafb86dda" x="-1" y="0" width="554" height="73">
+						<component kind="table">
+							<datasetRun uuid="acadd02d-ed62-447e-bfd9-7f6f08899f41" subDataset="adapterAnomalies">
+								<dataSourceExpression><![CDATA[    new net.sf.jasperreports.json.data.JsonDataSource(
+        new java.io.ByteArrayInputStream($P{JSON_DATA}.getBytes("UTF-8")),
+        "anomalies"
+    )]]></dataSourceExpression>
+								<parameter name="P_LANGUAGE_TABLE">
+									<expression><![CDATA[$F{reportSections.language}]]></expression>
+								</parameter>
+							</datasetRun>
+							<column kind="single" uuid="c562f306-1562-4a3c-909f-227b497c35cf" width="210">
+								<columnHeader height="30" style="Table 6_CH">
+									<element kind="textField" uuid="c065a4eb-7de8-4ab1-8988-aa52e4ca4e09" x="0" y="0" width="210" height="30" bold="true" italic="false" vTextAlign="Middle">
+										<expression><![CDATA[$P{P_LANGUAGE_TABLE}.equals("es") ? "Anomalías" : "Anomaly"]]></expression>
+										<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+									</element>
+									<box style="Table 6_CH">
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</columnHeader>
+								<detailCell height="30" style="Table 6_TD">
+									<element kind="frame" uuid="d6a762bf-9d5d-4465-a9a7-3c4f1590d054" x="0" y="0" width="210" height="30">
+										<element kind="image" uuid="8fbc6f5c-fdef-4d3e-ae81-3ed8307015eb" x="1" y="5" width="24" height="20">
+											<expression><![CDATA[$F{anomaly_type_id} == null ? 
+"https://drive.google.com/uc?export=download&id=1RiaTE1NXjEd6Ts96qsK2aWVFpylUnJkb" :
+($F{anomaly_type_id}.longValue() == 1 ? "https://drive.google.com/uc?export=download&id=18ld7UZh5bgLAVznX5SvbIyGhCXfNlthO" :
+ ($F{anomaly_type_id}.longValue() == 2 ? "https://report-files.idrules.ai/Cuentas-huerfanas.svg" :
+  ($F{anomaly_type_id}.longValue() == 3 ? "https://report-files.idrules.ai/Cuentas-inactivas.svg" :
+   ($F{anomaly_type_id}.longValue() == 4 ? "https://report-files.idrules.ai/Sin-MFA.svg" :
+    "https://report-files.idrules.ai/user.svg"))))]]></expression>
+											<property name="com.jaspersoft.studio.unit.height" value="px"/>
+											<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										</element>
+										<element kind="textField" uuid="1dddb586-b54a-46d3-958f-d51c029335fb" x="36" y="3" width="164" height="25" vTextAlign="Middle">
+											<expression><![CDATA[$F{description_es}]]></expression>
+										</element>
+									</element>
+									<box style="Table 6_TD">
+										<pen lineColor="#9E9E9E"/>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#9E9E9E"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#9E9E9E"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							</column>
+							<column kind="single" uuid="bf7255fa-b8e2-4282-a8fa-083fecec5c53" width="220">
+								<columnHeader height="30" style="Table 6_CH">
+									<element kind="textField" uuid="a73463af-710d-4bec-8af2-3df859ea0328" x="0" y="0" width="220" height="30" bold="true" italic="false" vTextAlign="Middle">
+										<expression><![CDATA[$P{P_LANGUAGE_TABLE}.equals("es") ? "Nombre de usuario" : "User name"]]></expression>
+										<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+									</element>
+									<box style="Table 6_CH">
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</columnHeader>
+								<detailCell height="30" style="Table 6_TD">
+									<element kind="textField" uuid="4742cb42-8cc6-461d-93d2-2e6e7f3a3d57" x="0" y="0" width="220" height="30" hTextAlign="Left" vTextAlign="Middle">
+										<expression><![CDATA[$F{username}]]></expression>
+										<box>
+											<pen lineColor="#B3B3B3"/>
+											<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+											<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+											<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+											<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										</box>
+									</element>
+									<box style="Table 6_TD">
+										<pen lineWidth="1.0" lineColor="#9E9E9E"/>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#969696"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#969696"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							</column>
+							<column kind="single" uuid="97276028-2e05-4c60-87e8-1b7d101757d6" width="123">
+								<columnHeader height="30" style="Table 6_CH">
+									<element kind="textField" uuid="d49ff05d-5973-4709-9529-00f6c056a940" x="0" y="0" width="123" height="30" bold="true" italic="false" vTextAlign="Middle">
+										<expression><![CDATA[$P{P_LANGUAGE_TABLE}.equals("es") ? "Creado en" : "Created at"]]></expression>
+										<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+									</element>
+									<box style="Table 6_CH">
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</columnHeader>
+								<detailCell height="30" style="Table 6_TD">
+									<element kind="textField" uuid="7148c844-4d9e-4052-befe-18b02a63c6e7" mode="Opaque" x="0" y="0" width="123" height="30" forecolor="#000000" pattern="MMMM d, yyyy" hTextAlign="Left" vTextAlign="Middle" style="sBadge">
+										<expression><![CDATA[$F{created_at} == null ? "" :
+java.time.OffsetDateTime.parse($F{created_at})
+    .format(java.time.format.DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm"))]]></expression>
+										<box style="sBadge">
+											<pen lineColor="#000000"/>
+											<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+											<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+											<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+											<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										</box>
+									</element>
+									<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+									<box style="Table 6_TD">
+										<pen lineWidth="1.0" lineColor="#9E9E9E"/>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#9E9E9E"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#9E9E9E"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+							</column>
+						</component>
+						<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+						<property name="com.jaspersoft.studio.table.style.table_header" value="Table 6_TH"/>
+						<property name="com.jaspersoft.studio.table.style.column_header" value="Table 6_CH"/>
+						<property name="com.jaspersoft.studio.table.style.detail" value="Table 6_TD"/>
+						<property name="com.jaspersoft.studio.components.autoresize.next" value="true"/>
+					</element>
+				</element>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="G_Accounts" startNewPage="true">
+		<expression><![CDATA[new Integer(5)]]></expression>
+		<groupHeader>
+			<band height="146">
+				<printWhenExpression><![CDATA[$F{reportSections.showAccounts}]]></printWhenExpression>
+				<element kind="frame" uuid="8788c0a4-e49c-497e-aa42-31f668cff500" x="0" y="4" width="555" height="24">
+					<element kind="textField" uuid="dc3f4c8a-c873-4d95-a0a0-30bd402c58fd" x="0" y="0" width="110" height="24" forecolor="#FB7462" fontSize="18.0" bold="true">
+						<expression><![CDATA[$F{reportSections.language}.equals("es") ? "Cuentas" : "Accounts"]]></expression>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</element>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#FB7462"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+				</element>
+				<element kind="frame" uuid="e828be02-1c4f-40d9-beb3-58a0acfda0c7" x="2" y="33" width="553" height="110">
+					<element kind="component" uuid="9bff9ed2-d6c4-4ea0-aa3e-e335a6a728ca" x="0" y="10" width="552" height="100">
+						<component kind="table">
+							<datasetRun uuid="d57ce97a-10df-48c0-9c0a-00056b456775" subDataset="AdapterAccounts">
+								<dataSourceExpression><![CDATA[new net.sf.jasperreports.json.data.JsonDataSource(new java.io.ByteArrayInputStream($P{JSON_DATA}.getBytes()), "accounts")
+]]></dataSourceExpression>
+								<parameter name="P_LANGUAGE_TABLE">
+									<expression><![CDATA[$F{reportSections.language}]]></expression>
+								</parameter>
+							</datasetRun>
+							<column kind="single" uuid="ee55acc6-e4d0-47e0-9d8d-709ec1b67d48" width="210">
+								<columnHeader height="30">
+									<element kind="textField" uuid="ae069b55-fbd6-4e7e-a947-f74e406b26f8" x="0" y="0" width="210" height="30" bold="true" italic="false" vTextAlign="Middle">
+										<expression><![CDATA[$P{P_LANGUAGE_TABLE}.equals("es") ? "Nombre de usuario" : "User name"]]></expression>
+										<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+									</element>
+									<box>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</columnHeader>
+								<detailCell height="30">
+									<element kind="textField" uuid="287c2dc9-d1d0-4273-bbf3-4e1db1bfc5d5" x="0" y="0" width="210" height="30" vTextAlign="Middle">
+										<expression><![CDATA[$F{username}]]></expression>
+									</element>
+									<box>
+										<pen lineColor="#9E9E9E"/>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#9E9E9E"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							</column>
+							<column kind="single" uuid="aa65e9c0-c63e-4ace-b499-7e74460a1ff0" width="90">
+								<columnHeader height="30">
+									<element kind="textField" uuid="79ab14e3-16f1-44b3-869b-ea866b1b67fa" x="0" y="0" width="90" height="30" bold="true" italic="false" vTextAlign="Middle">
+										<expression><![CDATA[$P{P_LANGUAGE_TABLE}.equals("es") ? "Riesgo" : "Risk"]]></expression>
+										<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+									</element>
+									<box>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</columnHeader>
+								<detailCell height="30">
+									<element kind="frame" uuid="41a4f91f-f407-4e30-b63b-15323333a239" x="0" y="0" width="90" height="30" backcolor="#FFFFFF">
+										<element kind="image" uuid="e7bd8da1-9196-4304-acc6-5a4f0457d31a" positionType="Float" x="1" y="6" width="45" height="15" style="Table 3_CH">
+											<expression><![CDATA[$F{risk}.intValue() == 100 ? "https://report-files.idrules.ai/Riesgo-critico.svg" : null]]></expression>
+											<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+											<property name="com.jaspersoft.studio.unit.height" value="px"/>
+											<property name="com.jaspersoft.studio.unit.y" value="px"/>
+											<property name="com.jaspersoft.studio.unit.width" value="px"/>
+											<box style="Table 3_CH">
+												<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+											</box>
+										</element>
+										<element kind="image" uuid="85680b6c-4221-41d3-9f49-8b5040bb1cfd" positionType="Float" x="1" y="6" width="45" height="15" style="Table 3_CH">
+											<expression><![CDATA[$F{risk}.intValue() == 50 ? "https://report-files.idrules.ai/Riesgo-medio.svg" : null]]></expression>
+											<property name="com.jaspersoft.studio.unit.height" value="px"/>
+											<property name="com.jaspersoft.studio.unit.y" value="px"/>
+											<property name="com.jaspersoft.studio.unit.width" value="px"/>
+											<property name="com.jaspersoft.studio.unit.x" value="px"/>
+											<box style="Table 3_CH">
+												<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+											</box>
+										</element>
+										<element kind="image" uuid="979c25a0-72b7-45b8-9697-29526461a48d" positionType="Float" x="1" y="6" width="45" height="15" style="Table 3_CH">
+											<expression><![CDATA[$F{risk}.intValue() == 75 ? "https://report-files.idrules.ai/Riesgo-alto.svg" : null]]></expression>
+											<property name="com.jaspersoft.studio.unit.height" value="px"/>
+											<property name="com.jaspersoft.studio.unit.y" value="px"/>
+											<property name="com.jaspersoft.studio.unit.width" value="px"/>
+											<property name="com.jaspersoft.studio.unit.x" value="px"/>
+											<box style="Table 3_CH">
+												<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+											</box>
+										</element>
+										<element kind="image" uuid="3f0880de-94a3-4945-9ca3-6bc169e2b696" positionType="Float" x="0" y="6" width="45" height="15" style="Table 3_CH">
+											<expression><![CDATA[($F{risk}.intValue() == 0 || $F{risk}.intValue() == 25) ? "https://report-files.idrules.ai/Riesgo-bajo.svg" : null]]></expression>
+											<property name="com.jaspersoft.studio.unit.height" value="px"/>
+											<property name="com.jaspersoft.studio.unit.y" value="px"/>
+											<property name="com.jaspersoft.studio.unit.width" value="px"/>
+											<property name="com.jaspersoft.studio.unit.x" value="px"/>
+											<box style="Table 3_CH">
+												<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+											</box>
+										</element>
+									</element>
+									<box>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#9E9E9E"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							</column>
+							<column kind="single" uuid="9fa4b9cb-fd2c-4605-890a-a0132652b17d" width="131">
+								<columnHeader height="30">
+									<element kind="textField" uuid="6e647a0f-2514-4530-a29e-3c54737eda6d" x="0" y="0" width="131" height="30" bold="true" italic="false" vTextAlign="Middle">
+										<expression><![CDATA[$P{P_LANGUAGE_TABLE}.equals("es") ? "Creado en" : "Created at"]]></expression>
+										<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+									</element>
+									<box>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</columnHeader>
+								<detailCell height="30">
+									<element kind="textField" uuid="2d93e882-a53b-4b90-9571-9cea97be9c56" x="0" y="0" width="131" height="30" hTextAlign="Left" vTextAlign="Middle">
+										<expression><![CDATA[$F{created_date} == null ? "" :
+java.time.OffsetDateTime.parse($F{created_date})
+    .format(java.time.format.DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm"))]]></expression>
+									</element>
+									<box>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#9E9E9E"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+							</column>
+							<column kind="single" uuid="8b2fc58e-d346-47d7-973a-f83a1a2f6e47" width="120">
+								<columnHeader height="30">
+									<element kind="textField" uuid="e14a686a-db38-484b-9a4d-29380ce0e03e" x="0" y="0" width="120" height="30" bold="true" italic="false" vTextAlign="Middle">
+										<expression><![CDATA[$P{P_LANGUAGE_TABLE}.equals("es") ? "Banderas" : "Flags"]]></expression>
+										<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+									</element>
+									<box>
+										<pen lineColor="#FFFFFF"/>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</columnHeader>
+								<detailCell height="30">
+									<element kind="frame" uuid="a4457ecc-1633-492e-89f6-8d184b3fc6ef" x="0" y="0" width="101" height="30">
+										<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+										<element kind="image" uuid="22edd103-51ca-4edb-a3d4-1152d2ece927" positionType="Float" x="20" y="21" width="18" height="19" style="Table 3_CH">
+											<expression><![CDATA[$F{is_dormant} == true ? 
+"https://report-files.idrules.ai/Cuentas-inactivas.svg" : "https://report-files.idrules.ai/No-Aplica-Bandera.svg"]]></expression>
+											<property name="com.jaspersoft.studio.unit.height" value="px"/>
+											<property name="com.jaspersoft.studio.unit.y" value="px"/>
+											<property name="com.jaspersoft.studio.unit.width" value="px"/>
+											<property name="com.jaspersoft.studio.unit.x" value="px"/>
+											<box style="Table 3_CH">
+												<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+											</box>
+										</element>
+										<element kind="image" uuid="94fbdbf4-04eb-4349-bc78-aaca1b69dfa4" positionType="Float" x="1" y="21" width="18" height="19" style="Table 7_CH">
+											<expression><![CDATA[$F{is_orphan} == true ? 
+"https://report-files.idrules.ai/Cuentas-huerfanas.svg" : "https://report-files.idrules.ai/No-Aplica-Bandera.svg"]]></expression>
+											<property name="com.jaspersoft.studio.unit.y" value="px"/>
+											<property name="com.jaspersoft.studio.unit.x" value="px"/>
+											<property name="com.jaspersoft.studio.unit.width" value="px"/>
+											<property name="com.jaspersoft.studio.unit.height" value="px"/>
+											<box style="Table 7_CH">
+												<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+											</box>
+										</element>
+										<element kind="image" uuid="71db3564-3245-4ebb-82fa-89789d9c321e" positionType="Float" x="39" y="21" width="18" height="19">
+											<expression><![CDATA[$F{is_password_expired} == true ? 
+"https://drive.google.com/uc?export=download&id=18ld7UZh5bgLAVznX5SvbIyGhCXfNlthO" : "https://report-files.idrules.ai/No-Aplica-Bandera.svg"]]></expression>
+											<property name="com.jaspersoft.studio.unit.y" value="px"/>
+											<property name="com.jaspersoft.studio.unit.x" value="px"/>
+											<property name="com.jaspersoft.studio.unit.width" value="px"/>
+											<property name="com.jaspersoft.studio.unit.height" value="px"/>
+										</element>
+										<element kind="image" uuid="0e632f55-f151-4a9d-9344-b29bcce3e70d" x="58" y="1" width="18" height="19">
+											<expression><![CDATA[$F{is_service} == true ? 
+"https://report-files.idrules.ai/Cuentas-de-servicio.svg" : "https://report-files.idrules.ai/No-Aplica-Bandera.svg"]]></expression>
+											<property name="com.jaspersoft.studio.unit.y" value="px"/>
+											<property name="com.jaspersoft.studio.unit.x" value="px"/>
+											<property name="com.jaspersoft.studio.unit.width" value="px"/>
+											<property name="com.jaspersoft.studio.unit.height" value="px"/>
+										</element>
+										<element kind="image" uuid="a3adf82f-2c20-4d57-a7e7-5e070c7ddc05" x="58" y="21" width="18" height="19">
+											<expression><![CDATA[$F{is_sfa} == true ? 
+"https://report-files.idrules.ai/Sin-MFA.svg" : "https://report-files.idrules.ai/No-Aplica-Bandera.svg"]]></expression>
+											<property name="com.jaspersoft.studio.unit.y" value="px"/>
+											<property name="com.jaspersoft.studio.unit.x" value="px"/>
+											<property name="com.jaspersoft.studio.unit.width" value="px"/>
+											<property name="com.jaspersoft.studio.unit.height" value="px"/>
+										</element>
+										<element kind="image" uuid="2c565130-2b61-4c00-8da8-077e54b0761c" x="77" y="1" width="18" height="19">
+											<expression><![CDATA[$F{is_shared} == true ? 
+"https://report-files.idrules.ai/Cuenta-Compartida.svg" : "https://report-files.idrules.ai/No-Aplica-Bandera.svg"]]></expression>
+											<property name="com.jaspersoft.studio.unit.y" value="px"/>
+											<property name="com.jaspersoft.studio.unit.x" value="px"/>
+											<property name="com.jaspersoft.studio.unit.width" value="px"/>
+											<property name="com.jaspersoft.studio.unit.height" value="px"/>
+										</element>
+										<element kind="image" uuid="173c6c1b-e3c4-45e9-b24e-67a4c54bfe8c" x="20" y="1" width="19" height="19">
+											<expression><![CDATA[$F{password_locked} == true ?  "https://report-files.idrules.ai/Cuenta-bloqueada.svg" : "https://report-files.idrules.ai/Flag-Cuenta-Activa.svg"]]></expression>
+											<property name="com.jaspersoft.studio.unit.y" value="px"/>
+											<property name="com.jaspersoft.studio.unit.x" value="px"/>
+											<property name="com.jaspersoft.studio.unit.width" value="px"/>
+											<property name="com.jaspersoft.studio.unit.height" value="px"/>
+										</element>
+										<element kind="image" uuid="b831a443-ad74-4b66-b948-0e38b3e1fb42" positionType="Float" x="1" y="1" width="18" height="19" style="Table 3_CH">
+											<expression><![CDATA[$F{deleted} == true ? "https://report-files.idrules.ai/Flag-cuenta-eliminada.svg" : "https://report-files.idrules.ai/Flag-Cuenta-Vigente.svg"]]></expression>
+											<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+											<property name="com.jaspersoft.studio.unit.height" value="px"/>
+											<property name="com.jaspersoft.studio.unit.y" value="px"/>
+											<property name="com.jaspersoft.studio.unit.width" value="px"/>
+											<box style="Table 3_CH">
+												<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+												<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+											</box>
+										</element>
+										<element kind="image" uuid="a880f3d0-a74b-4166-a2c5-2d5610cc2161" x="39" y="1" width="18" height="19">
+											<expression><![CDATA[$F{is_privileged} == true ? "https://report-files.idrules.ai/Cuentas-privilegiadas.svg" : "https://report-files.idrules.ai/No-Aplica-Bandera.svg"]]></expression>
+											<property name="com.jaspersoft.studio.unit.y" value="px"/>
+											<property name="com.jaspersoft.studio.unit.x" value="px"/>
+											<property name="com.jaspersoft.studio.unit.width" value="px"/>
+											<property name="com.jaspersoft.studio.unit.height" value="px"/>
+										</element>
+									</element>
+									<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+									<box>
+										<pen lineColor="#FFFFFF"/>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#9E9E9E"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+							</column>
+						</component>
+						<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+						<property name="com.jaspersoft.studio.table.style.column_header" value="Table 7_CH"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</element>
+				</element>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="G_Types_Flags">
+		<expression><![CDATA[new Integer(6)]]></expression>
+		<groupHeader>
+			<band height="115">
+				<printWhenExpression><![CDATA[$F{reportSections.showFlags}]]></printWhenExpression>
+				<element kind="frame" uuid="f7c53f46-c2b3-42ae-aee3-f615d3c6c73b" x="0" y="0" width="554" height="110">
+					<element kind="textField" uuid="1fdc726a-925f-4733-8959-0acbed583880" x="4" y="6" width="167" height="23" fontSize="16.0" bold="true">
+						<expression><![CDATA[$F{reportSections.language}.equals("es") ? "Tipos de bandera" : "Types of flags"]]></expression>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</element>
+					<element kind="component" uuid="0685ceda-7b8f-4645-b6d8-970c6230ecf9" x="0" y="40" width="552" height="60">
+						<component kind="table">
+							<datasetRun uuid="d420d28f-fa9a-4335-bf63-0d004dc33080" subDataset="DataAdapterFlags">
+								<dataSourceExpression><![CDATA[new net.sf.jasperreports.json.data.JsonDataSource(new java.io.ByteArrayInputStream($P{JSON_DATA}.getBytes()), "flags")
+]]></dataSourceExpression>
+								<parameter name="P_LANGUAGE_TABLE">
+									<expression><![CDATA[$F{reportSections.language}]]></expression>
+								</parameter>
+							</datasetRun>
+							<column kind="single" uuid="2d808a29-2d3b-4158-a80c-a4b521e7c01c" width="50">
+								<detailCell height="50" style="Table 9_TD">
+									<element kind="frame" uuid="0d8b5dd0-bc19-415f-bc43-74047ba5aa8a" x="0" y="0" width="50" height="50">
+										<element kind="image" uuid="1d357127-3451-4cae-b401-2c0d3bd7114f" x="8" y="10" width="30" height="30">
+											<expression><![CDATA[$F{avatar}]]></expression>
+											<property name="com.jaspersoft.studio.unit.width" value="px"/>
+											<property name="com.jaspersoft.studio.unit.height" value="px"/>
+										</element>
+									</element>
+									<box style="Table 9_TD">
+										<pen lineWidth="0.0" lineColor="#DEDEDE"/>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#9E9E9E"/>
+										<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#9E9E9E"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#9E9E9E"/>
+										<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+									</box>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							</column>
+							<column kind="single" uuid="e9b35599-4698-483e-958b-1fcab67b90a4" width="500">
+								<detailCell height="50" style="Table 9_TD">
+									<element kind="textField" uuid="1ef73325-8fae-4b26-b32d-9365e9c6a1ed" x="0" y="0" width="500" height="25" fontSize="14.0" bold="true" vTextAlign="Bottom">
+										<expression><![CDATA[$P{P_LANGUAGE_TABLE}.equals("es") ? $F{title_es} : $F{title_en}]]></expression>
+									</element>
+									<element kind="textField" uuid="4b40b552-e680-4b77-9c76-70e315cef873" x="0" y="25" width="500" height="25" fontSize="12.0">
+										<expression><![CDATA[$P{P_LANGUAGE_TABLE}.equals("es") ?  $F{description_es} : $F{description_en}]]></expression>
+									</element>
+									<box style="Table 9_TD">
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#9E9E9E"/>
+										<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#9E9E9E"/>
+										<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#9E9E9E"/>
+									</box>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							</column>
+						</component>
+						<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+						<property name="com.jaspersoft.studio.table.style.table_header" value="Table 9_TH"/>
+						<property name="com.jaspersoft.studio.table.style.column_header" value="Table 9_CH"/>
+						<property name="com.jaspersoft.studio.table.style.detail" value="Table 9_TD"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</element>
+				</element>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="G_Entitlements">
+		<expression><![CDATA[new Integer(7)]]></expression>
+		<groupHeader>
+			<band height="140">
+				<printWhenExpression><![CDATA[$F{reportSections.showEntitlements}]]></printWhenExpression>
+				<element kind="frame" uuid="77bd7fcb-b053-46e0-8427-fe3246ccbcf7" x="0" y="4" width="553" height="24">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<element kind="textField" uuid="c2b4410e-47aa-408e-8c4e-fdb6babfb52d" x="0" y="0" width="110" height="24" forecolor="#FB7462" fontSize="18.0" bold="true">
+						<expression><![CDATA[$F{reportSections.language}.equals("es") ? "Privilegios" : "Entitlements"]]></expression>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</element>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#FB7462"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+				</element>
+				<element kind="frame" uuid="3ca5ab6b-c6e6-45c1-8762-f50a1359b715" x="0" y="33" width="551" height="107">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<element kind="component" uuid="954e43b5-b183-4966-a715-d64570ba0905" x="0" y="10" width="551" height="70">
+						<component kind="table">
+							<datasetRun uuid="0cb2f747-a21f-4909-8747-685f6a13318b" subDataset="AdapterEntitlements">
+								<dataSourceExpression><![CDATA[new net.sf.jasperreports.json.data.JsonDataSource(new java.io.ByteArrayInputStream($P{JSON_DATA}.getBytes()), "entitlements")
+]]></dataSourceExpression>
+								<parameter name="P_LANGUAGE_TABLE">
+									<expression><![CDATA[$F{reportSections.language}]]></expression>
+								</parameter>
+							</datasetRun>
+							<column kind="single" uuid="95d445c6-17a3-45b7-a027-eca43ae67adb" width="180">
+								<columnHeader height="30" rowSpan="1" style="Table 8_CH_FIRST">
+									<element kind="textField" uuid="79b97391-b270-48d8-a8be-77cdd9833cd0" x="0" y="0" width="180" height="30" bold="true" italic="false" vTextAlign="Middle">
+										<expression><![CDATA[$P{P_LANGUAGE_TABLE}.equals("es") ? "Nombre" : "Name"]]></expression>
+										<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+									</element>
+									<box style="Table 8_CH_FIRST">
+										<pen lineColor="#D8D8D8"/>
+										<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</columnHeader>
+								<detailCell height="30" style="Table 8_TD_FIRST">
+									<element kind="textField" uuid="37ad2114-eab2-46cb-b178-497fdf4bc173" x="0" y="0" width="180" height="30" forecolor="#000000" backcolor="#FFFFFF" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+										<expression><![CDATA[$F{name}]]></expression>
+									</element>
+									<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.HorizontalRowLayout"/>
+									<box style="Table 8_TD_FIRST">
+										<pen lineColor="#D8D8D8"/>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#BEBEBE"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#D8D8D8"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							</column>
+							<column kind="single" uuid="47c08771-6f10-4fe6-a216-9a495f1fc655" width="70">
+								<columnHeader height="30" rowSpan="1" style="Table 8_CH">
+									<element kind="textField" uuid="472d62a4-63a9-450e-a014-b08305a21359" x="0" y="0" width="70" height="30" bold="true" italic="false" vTextAlign="Middle">
+										<expression><![CDATA[$P{P_LANGUAGE_TABLE}.equals("es") ? "Miembros" : "Members"]]></expression>
+										<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+									</element>
+									<box style="Table 8_CH">
+										<pen lineColor="#D8D8D8"/>
+										<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</columnHeader>
+								<detailCell height="30" style="Table 8_TD">
+									<element kind="textField" uuid="4b61c900-d8c9-46a5-ba17-3051b26045ad" x="0" y="0" width="70" height="30" hTextAlign="Left" vTextAlign="Middle">
+										<expression><![CDATA[$F{number_members}]]></expression>
+									</element>
+									<box style="Table 8_TD">
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#D8D8D8"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#D8D8D8"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							</column>
+							<column kind="single" uuid="3ee55420-5fdf-44ad-82e3-2a280606f831" width="110">
+								<columnHeader height="30" rowSpan="1" style="Table 8_CH">
+									<element kind="textField" uuid="ddf55aab-8276-4ff8-9e94-b5f898a017eb" x="0" y="0" width="110" height="30" bold="true" italic="false" vTextAlign="Middle">
+										<expression><![CDATA[$P{P_LANGUAGE_TABLE}.equals("es") ? "Primera vez visto" : "First seen date"]]></expression>
+										<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+									</element>
+									<box style="Table 8_CH">
+										<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</columnHeader>
+								<detailCell height="30" style="Table 8_TD">
+									<element kind="textField" uuid="c287a520-71d6-4f1a-8f00-6616bcec135b" x="0" y="0" width="110" height="30" hTextAlign="Left" vTextAlign="Middle">
+										<expression><![CDATA[$F{created_at}== null ? "" :
+java.time.OffsetDateTime.parse($F{last_update})
+    .format(java.time.format.DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm"))]]></expression>
+									</element>
+									<box style="Table 8_TD">
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#D8D8D8"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#D8D8D8"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+							</column>
+							<column kind="single" uuid="7e1cbc83-7646-48b6-bb35-6f2c71685413" width="110">
+								<columnHeader height="30" rowSpan="1" style="Table 8_CH">
+									<element kind="textField" uuid="c4633c9a-7ebb-4e4a-b401-0e1d4c62de3a" x="0" y="0" width="110" height="30" bold="true" italic="false" vTextAlign="Middle">
+										<expression><![CDATA[$P{P_LANGUAGE_TABLE}.equals("es") ? "Última vez visto" : "Last seen date"]]></expression>
+										<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+									</element>
+									<box style="Table 8_CH">
+										<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</columnHeader>
+								<detailCell height="30" style="Table 8_TD">
+									<element kind="textField" uuid="d036f014-3bef-4272-8d08-5216d7355e98" x="0" y="0" width="110" height="30" hTextAlign="Left" vTextAlign="Middle">
+										<expression><![CDATA[$F{last_update}== null ? "" :
+java.time.OffsetDateTime.parse($F{last_update})
+    .format(java.time.format.DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm"))]]></expression>
+									</element>
+									<box style="Table 8_TD">
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#D8D8D8"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#D8D8D8"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+							</column>
+							<column kind="single" uuid="bc7e10de-17dc-4741-9a87-b0005d4c545f" width="81">
+								<columnHeader height="30" rowSpan="1" style="Table 8_CH">
+									<element kind="textField" uuid="dbebaccb-65d3-4b2c-9ae4-fbfbf9677c5b" x="0" y="0" width="81" height="30" bold="true" italic="false" vTextAlign="Middle">
+										<expression><![CDATA[$P{P_LANGUAGE_TABLE}.equals("es") ? "Banderas" : "Flags"]]></expression>
+										<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+									</element>
+									<box style="Table 8_CH">
+										<topPen lineColor="#FFFFFF"/>
+									</box>
+								</columnHeader>
+								<detailCell height="30" style="Table 8_TD">
+									<element kind="frame" uuid="2471461d-000c-415e-884c-6916e8983d0c" positionType="Float" x="0" y="0" width="81" height="30" removeLineWhenBlank="true">
+										<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+										<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+										<element kind="image" uuid="0d0a6a0a-ab15-43d4-9436-f48bc53524a9" positionType="Float" x="0" y="4" width="25" height="20">
+											<expression><![CDATA[$F{is_privileged} != null && $F{is_privileged}?  "https://report-files.idrules.ai/Cuentas-privilegiadas.svg" : "https://report-files.idrules.ai/No-Aplica-Bandera.svg"]]></expression>
+											<property name="com.jaspersoft.studio.unit.height" value="px"/>
+											<property name="com.jaspersoft.studio.unit.y" value="px"/>
+											<property name="com.jaspersoft.studio.unit.x" value="px"/>
+											<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										</element>
+										<element kind="image" uuid="227a2a81-b528-4d9a-aa8b-6808573e9f2c" positionType="Float" x="29" y="4" width="25" height="20">
+											<expression><![CDATA[$F{number_members} != null && $F{number_members}.intValue() == 0 ?
+"https://report-files.idrules.ai/Cuentas-inactivas.svg" : "https://report-files.idrules.ai/No-Aplica-Bandera.svg"]]></expression>
+											<property name="com.jaspersoft.studio.unit.height" value="px"/>
+											<property name="com.jaspersoft.studio.unit.y" value="px"/>
+											<property name="com.jaspersoft.studio.unit.x" value="px"/>
+											<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										</element>
+										<box>
+											<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+											<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+											<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+											<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										</box>
+									</element>
+									<box style="Table 8_TD">
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#D8D8D8"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#D8D8D8"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column5"/>
+							</column>
+						</component>
+						<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+						<property name="com.jaspersoft.studio.table.style.table_header" value="Table 8_TH"/>
+						<property name="com.jaspersoft.studio.table.style.column_header" value="Table 8_CH"/>
+						<property name="com.jaspersoft.studio.table.style.detail" value="Table 8_TD"/>
+						<property name="com.jaspersoft.studio.table.style.table_header_first" value="Table 8_TH_FIRST"/>
+						<property name="com.jaspersoft.studio.table.style.table_header_last" value="Table 8_TH_LAST"/>
+						<property name="com.jaspersoft.studio.table.style.column_header_first" value="Table 8_CH_FIRST"/>
+						<property name="com.jaspersoft.studio.table.style.column_header_last" value="Table 8_CH_LAST"/>
+						<property name="com.jaspersoft.studio.table.style.detail_first" value="Table 8_TD_FIRST"/>
+						<property name="com.jaspersoft.studio.table.style.detail_last" value="Table 8_TD_LAST"/>
+					</element>
+				</element>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="G_Grants" startNewPage="true">
+		<expression><![CDATA[new Integer(8)]]></expression>
+		<groupHeader>
+			<band height="125">
+				<printWhenExpression><![CDATA[$F{reportSections.showGrants}]]></printWhenExpression>
+				<element kind="frame" uuid="be0a9088-4e5d-46e0-9491-ec10361e98a9" x="0" y="4" width="553" height="24">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<element kind="textField" uuid="6cee280d-d64c-4e6d-b183-b7f9fa40a8f2" x="0" y="0" width="110" height="24" forecolor="#FB7462" fontSize="18.0" bold="true">
+						<expression><![CDATA[$F{reportSections.language}.equals("es") ? "Asignaciones" : "Grants"]]></expression>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</element>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#FB7462"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+				</element>
+				<element kind="frame" uuid="af40a19b-021e-4d01-a4c8-32a7fa836858" x="0" y="33" width="552" height="87">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<element kind="component" uuid="ad7009c2-0ab6-4a36-bbde-d1248216cfb1" x="0" y="10" width="552" height="70">
+						<component kind="table">
+							<datasetRun uuid="e2aa6f7c-bccc-4bcb-8843-fa7ef3512c6d" subDataset="AdapterGrants">
+								<dataSourceExpression><![CDATA[new net.sf.jasperreports.json.data.JsonDataSource(new java.io.ByteArrayInputStream($P{JSON_DATA}.getBytes()), "grants")]]></dataSourceExpression>
+								<parameter name="P_LANGUAGE_TABLE">
+									<expression><![CDATA[$F{reportSections.language}]]></expression>
+								</parameter>
+							</datasetRun>
+							<column kind="single" uuid="0f9c858b-b011-40bf-9ad6-bf7cb869c0b1" width="140">
+								<columnHeader height="30" rowSpan="1" style="Table 8_CH">
+									<element kind="textField" uuid="fa8cf918-da74-424d-9802-a54d5d0f8850" x="0" y="0" width="140" height="30" bold="true" italic="false" vTextAlign="Middle">
+										<expression><![CDATA[$P{P_LANGUAGE_TABLE}.equals("es") ? "Privilegio" : "Entitlement"]]></expression>
+										<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+									</element>
+									<box style="Table 8_CH">
+										<pen lineColor="#D8D8D8"/>
+										<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</columnHeader>
+								<detailCell height="30" style="Table 8_TD">
+									<element kind="textField" uuid="3d4436dc-d0bf-4235-8391-064596e9ba79" x="0" y="0" width="140" height="30" forecolor="#000000" backcolor="#FFFFFF" hTextAlign="Left" vTextAlign="Middle">
+										<expression><![CDATA[$F{privilege_name}]]></expression>
+									</element>
+									<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.HorizontalRowLayout"/>
+									<box style="Table 8_TD">
+										<pen lineColor="#D8D8D8"/>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#BEBEBE"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#D8D8D8"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							</column>
+							<column kind="single" uuid="119835a2-4e9a-408f-9e54-054412a16fff" width="190">
+								<columnHeader height="30" rowSpan="1" style="Table 8_CH">
+									<element kind="textField" uuid="df9f110a-f9d1-4f7c-aad0-dcf40821a168" x="0" y="0" width="190" height="30" bold="true" italic="false" vTextAlign="Middle">
+										<expression><![CDATA[$P{P_LANGUAGE_TABLE}.equals("es") ? "Nombre de usuario" : "User name"]]></expression>
+										<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+									</element>
+									<box style="Table 8_CH">
+										<pen lineColor="#D8D8D8"/>
+										<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</columnHeader>
+								<detailCell height="30" style="Table 8_TD">
+									<element kind="textField" uuid="2aa06aec-de70-4784-af84-54bb63ed599e" x="0" y="0" width="190" height="30" hTextAlign="Left" vTextAlign="Middle">
+										<expression><![CDATA[$F{username}]]></expression>
+									</element>
+									<box style="Table 8_TD">
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#D8D8D8"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#D8D8D8"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							</column>
+							<column kind="single" uuid="38eded09-247e-4d02-b0b7-467dab7f9419" width="110">
+								<columnHeader height="30" rowSpan="1" style="Table 8_CH">
+									<element kind="textField" uuid="9a92978d-a578-447c-9ab0-21e29c1a8c61" x="0" y="0" width="110" height="30" bold="true" italic="false" vTextAlign="Middle">
+										<expression><![CDATA[$P{P_LANGUAGE_TABLE}.equals("es") ? "Primera vez visto" : "First seen date"]]></expression>
+										<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+									</element>
+									<box style="Table 8_CH">
+										<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</columnHeader>
+								<detailCell height="30" style="Table 8_TD">
+									<element kind="textField" uuid="9f59c23d-e8cb-4cb3-bbd0-11aee497f6b9" x="0" y="0" width="110" height="30" hTextAlign="Left" vTextAlign="Middle">
+										<expression><![CDATA[$F{created_at} == null ? "" :
+java.time.OffsetDateTime.parse($F{created_at})
+    .format(java.time.format.DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm"))]]></expression>
+									</element>
+									<box style="Table 8_TD">
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#D8D8D8"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#D8D8D8"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+							</column>
+							<column kind="single" uuid="e015be9d-ba71-4c40-bef6-214e12c2304f" width="110">
+								<columnHeader height="30" rowSpan="1" style="Table 8_CH">
+									<element kind="textField" uuid="5a33ce71-89ff-4cec-81a3-4ed175480bc0" x="0" y="0" width="110" height="30" bold="true" italic="false" vTextAlign="Middle">
+										<expression><![CDATA[$P{P_LANGUAGE_TABLE}.equals("es") ? "Última vez visto" : "Last seen date"]]></expression>
+										<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+									</element>
+									<box style="Table 8_CH">
+										<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</columnHeader>
+								<detailCell height="30" style="Table 8_TD">
+									<element kind="textField" uuid="9a625c57-b48a-4757-8cf3-b4a144fe8cb9" x="0" y="0" width="110" height="30" hTextAlign="Left" vTextAlign="Middle">
+										<expression><![CDATA[$F{last_update} == null ? "" :
+java.time.OffsetDateTime.parse($F{last_update})
+    .format(java.time.format.DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm"))]]></expression>
+									</element>
+									<box style="Table 8_TD">
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#D8D8D8"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#D8D8D8"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+							</column>
+						</component>
+						<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+						<property name="com.jaspersoft.studio.table.style.table_header" value="Table 8_TH"/>
+						<property name="com.jaspersoft.studio.table.style.column_header" value="Table 8_CH"/>
+						<property name="com.jaspersoft.studio.table.style.detail" value="Table 8_TD"/>
+						<property name="com.jaspersoft.studio.table.style.table_header_first" value="Table 8_TH_FIRST"/>
+						<property name="com.jaspersoft.studio.table.style.table_header_last" value="Table 8_TH_LAST"/>
+						<property name="com.jaspersoft.studio.table.style.column_header_first" value="Table 8_CH_FIRST"/>
+						<property name="com.jaspersoft.studio.table.style.column_header_last" value="Table 8_CH_LAST"/>
+						<property name="com.jaspersoft.studio.table.style.detail_first" value="Table 8_TD_FIRST"/>
+						<property name="com.jaspersoft.studio.table.style.detail_last" value="Table 8_TD_LAST"/>
+					</element>
+				</element>
+			</band>
+		</groupHeader>
+	</group>
+	<pageHeader height="63">
+		<printWhenExpression><![CDATA[$V{PAGE_NUMBER} > 1]]></printWhenExpression>
+		<element kind="image" uuid="a76e960c-891b-4f40-b5bd-0dd920998ade" x="458" y="3" width="91" height="41">
+			<expression><![CDATA["https://drive.google.com/uc?export=download&id=11ttRB7oEmqOoCvF90AxCumVLe01Spbs6"]]></expression>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="d5bdcf8b-593b-4b2d-bfdf-287ce565cdab" x="2" y="13" width="138" height="27">
+			<expression><![CDATA[$F{reportSections.language}.equals("es") ? "Reporte de auditoría" : "Audit report"]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+	</pageHeader>
+	<detail>
+		<band height="48"/>
+	</detail>
+	<pageFooter height="30">
+		<element kind="textField" uuid="0a1b2c3d-4e5f-6789-aaaa-bbccddeeff00" x="520" y="8" width="35" height="18" style="sBase">
+			<expression><![CDATA[$V{PAGE_NUMBER}]]></expression>
+		</element>
+		<element kind="textField" uuid="1a2b3c4d-5e6f-7890-abcd-ef0123456789" x="0" y="0" width="200" height="18" markup="html" pattern="yyyy-MM-dd HH:mm" bold="false">
+			<printWhenExpression><![CDATA[$V{PAGE_NUMBER} == 1]]></printWhenExpression>
+			<expression><![CDATA[($F{reportSections.language}.equals("es") 
+    ? "<b>Nombre del reporte:</b> " 
+    : "<b>Report name:</b> ")
++ $F{application.name} 
++ " - " 
++ new java.text.SimpleDateFormat(
+        $F{reportSections.language}.equals("es") ? "MMMM" : "MMMM",
+        new java.util.Locale($F{reportSections.language}, "MX")
+  ).format(new java.util.Date())]]></expression>
+		</element>
+		<element kind="textField" uuid="1b4b89d1-2f45-478c-b4e9-d1140d6da302" x="0" y="13" width="262" height="12" markup="html" pattern="yyyy-MM-dd HH:mm" style="sBase">
+			<printWhenExpression><![CDATA[$V{PAGE_NUMBER} == 1]]></printWhenExpression>
+			<expression><![CDATA[($F{reportSections.language}.equals("es") 
+    ? "<b>Fecha de creación:</b> " 
+    : "<b>Creation date:</b> ")
++ new java.text.SimpleDateFormat(
+        $F{reportSections.language}.equals("es") 
+            ? "d 'de' MMMM 'de' yyyy" 
+            : "MMMM d, yyyy",
+        new java.util.Locale($F{reportSections.language}, "MX")
+  ).format(new java.util.Date())]]></expression>
+		</element>
+	</pageFooter>
+</jasperReport>
